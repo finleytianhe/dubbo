@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.rpc.protocol.dubbo.CallbackServiceCodec</OriginalElement>
+  <nodes>
+    <node x="173.0" y="444.0">org.apache.dubbo.rpc.protocol.dubbo.filter.FutureFilter</node>
+    <node x="336.0" y="444.0">org.apache.dubbo.rpc.protocol.dubbo.Constants</node>
+    <node x="0.0" y="518.0">org.apache.dubbo.rpc.protocol.dubbo.filter.TraceFilter</node>
+    <node x="253.0" y="74.0">org.apache.dubbo.rpc.protocol.dubbo.DecodeableRpcInvocation</node>
+    <node x="0.0" y="222.0">org.apache.dubbo.rpc.protocol.dubbo.DubboProtocolServer</node>
+    <node x="287.0" y="0.0">org.apache.dubbo.rpc.protocol.dubbo.LazyConnectExchangeClient</node>
+    <node x="225.0" y="222.0">org.apache.dubbo.rpc.protocol.dubbo.DecodeableRpcResult</node>
+    <node x="187.0" y="370.0">org.apache.dubbo.rpc.protocol.dubbo.DubboProtocol</node>
+    <node x="0.0" y="296.0">org.apache.dubbo.rpc.protocol.dubbo.status.ServerStatusChecker</node>
+    <node x="0.0" y="444.0">org.apache.dubbo.rpc.protocol.dubbo.DubboCodec</node>
+    <node x="222.0" y="296.0">org.apache.dubbo.rpc.protocol.dubbo.DubboCountCodec</node>
+    <node x="373.0" y="370.0">org.apache.dubbo.rpc.protocol.dubbo.DubboInvoker</node>
+    <node x="0.0" y="74.0">org.apache.dubbo.rpc.protocol.dubbo.status.ThreadPoolStatusChecker</node>
+    <node x="244.0" y="148.0">org.apache.dubbo.rpc.protocol.dubbo.CallbackServiceCodec</node>
+    <node x="0.0" y="148.0">org.apache.dubbo.rpc.protocol.dubbo.ChannelWrappedInvoker</node>
+    <node x="0.0" y="370.0">org.apache.dubbo.rpc.protocol.dubbo.DubboExporter</node>
+    <node x="0.0" y="0.0">org.apache.dubbo.rpc.protocol.dubbo.ReferenceCountExchangeClient</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="91.0" y="14.5" />
+  <SelectedNodes>
+    <node>org.apache.dubbo.rpc.protocol.dubbo.CallbackServiceCodec</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

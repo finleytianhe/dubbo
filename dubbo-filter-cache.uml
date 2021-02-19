@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.cache.Cache</OriginalElement>
+  <nodes>
+    <node x="727.0" y="232.0">org.apache.dubbo.cache.support.expiring.ExpiringMap</node>
+    <node x="342.0" y="79.0">org.apache.dubbo.cache.support.AbstractCacheFactory</node>
+    <node x="126.0" y="311.0">org.apache.dubbo.cache.support.threadlocal.ThreadLocalCache</node>
+    <node x="317.0" y="232.0">org.apache.dubbo.cache.Cache</node>
+    <node x="433.0" y="311.0">org.apache.dubbo.cache.support.expiring.ExpiringCache</node>
+    <node x="0.0" y="385.0">org.apache.dubbo.cache.filter.CacheFilter</node>
+    <node x="368.5" y="0.0">org.apache.dubbo.cache.CacheFactory</node>
+    <node x="159.0" y="158.0">org.apache.dubbo.cache.support.lru.LruCacheFactory</node>
+    <node x="558.0" y="158.0">org.apache.dubbo.cache.support.expiring.ExpiringCacheFactory</node>
+    <node x="589.0" y="311.0">org.apache.dubbo.cache.support.jcache.JCache</node>
+    <node x="760.0" y="158.0">org.apache.dubbo.cache.support.lfu.LfuCacheFactory</node>
+    <node x="331.0" y="158.0">org.apache.dubbo.cache.support.threadlocal.ThreadLocalCacheFactory</node>
+    <node x="307.0" y="311.0">org.apache.dubbo.cache.support.lfu.LfuCache</node>
+    <node x="0.0" y="158.0">org.apache.dubbo.cache.support.jcache.JCacheFactory</node>
+    <node x="0.0" y="311.0">org.apache.dubbo.cache.support.lru.LruCache</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.cache.support.threadlocal.ThreadLocalCacheFactory" target="org.apache.dubbo.cache.support.AbstractCacheFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.cache.support.jcache.JCacheFactory" target="org.apache.dubbo.cache.support.AbstractCacheFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="69.5" y="128.0" />
+      <point x="360.5" y="128.0" />
+      <point x="-74.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.cache.support.jcache.JCache" target="org.apache.dubbo.cache.Cache">
+      <point x="0.0" y="-14.5" />
+      <point x="635.5" y="281.0" />
+      <point x="394.4" y="281.0" />
+      <point x="34.39999999999998" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.cache.support.threadlocal.ThreadLocalCache" target="org.apache.dubbo.cache.Cache">
+      <point x="0.0" y="-14.5" />
+      <point x="206.5" y="291.0" />
+      <point x="342.8" y="291.0" />
+      <point x="-17.19999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.cache.support.lfu.LfuCacheFactory" target="org.apache.dubbo.cache.support.AbstractCacheFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="836.0" y="128.0" />
+      <point x="508.5" y="128.0" />
+      <point x="74.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.cache.support.AbstractCacheFactory" target="org.apache.dubbo.cache.CacheFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.cache.support.lfu.LfuCache" target="org.apache.dubbo.cache.Cache">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.cache.support.expiring.ExpiringCache" target="org.apache.dubbo.cache.Cache">
+      <point x="0.0" y="-14.5" />
+      <point x="501.0" y="291.0" />
+      <point x="377.2" y="291.0" />
+      <point x="17.19999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.cache.support.lru.LruCacheFactory" target="org.apache.dubbo.cache.support.AbstractCacheFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="235.0" y="138.0" />
+      <point x="397.5" y="138.0" />
+      <point x="-37.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.cache.support.expiring.ExpiringCacheFactory" target="org.apache.dubbo.cache.support.AbstractCacheFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="649.0" y="138.0" />
+      <point x="471.5" y="138.0" />
+      <point x="37.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.cache.support.lru.LruCache" target="org.apache.dubbo.cache.Cache">
+      <point x="0.0" y="-14.5" />
+      <point x="53.0" y="281.0" />
+      <point x="325.6" y="281.0" />
+      <point x="-34.39999999999998" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="43.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

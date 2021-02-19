@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.configcenter.support.zookeeper.CacheListener</OriginalElement>
+  <nodes>
+    <node x="0.0" y="148.0">org.apache.dubbo.configcenter.support.zookeeper.CacheListener</node>
+    <node x="0.0" y="0.0">org.apache.dubbo.configcenter.support.zookeeper.ZookeeperDynamicConfigurationFactory</node>
+    <node x="0.0" y="74.0">org.apache.dubbo.configcenter.support.zookeeper.ZookeeperDynamicConfiguration</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="67.5" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

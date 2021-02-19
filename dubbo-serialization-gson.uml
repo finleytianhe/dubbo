@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.common.serialize.gson.GsonJsonObjectInput</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">org.apache.dubbo.common.serialize.gson.GsonJsonObjectOutput</node>
+    <node x="0.0" y="74.0">org.apache.dubbo.common.serialize.gson.GsonJsonObjectInput</node>
+    <node x="0.0" y="148.0">org.apache.dubbo.common.serialize.gson.GsonSerialization</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="91.5" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

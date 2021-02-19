@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.rpc.protocol.rmi.RmiProtocol</OriginalElement>
+  <nodes>
+    <node x="0.0" y="74.0">org.apache.dubbo.rpc.protocol.rmi.RmiProtocol</node>
+    <node x="0.0" y="0.0">org.apache.dubbo.rpc.protocol.rmi.RmiRemoteInvocation</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="94.0" y="172.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

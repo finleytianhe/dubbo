@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.config.ConfigInitializer</OriginalElement>
+  <nodes>
+    <node x="866.0" y="484.0">org.apache.dubbo.config.metadata.ServiceInstancePortCustomizer</node>
+    <node x="598.9338235294117" y="257.0">org.apache.dubbo.config.bootstrap.builders.AbstractReferenceBuilder</node>
+    <node x="0.0" y="484.0">org.apache.dubbo.config.event.ReferenceConfigDestroyedEvent</node>
+    <node x="1276.0" y="99.0">org.apache.dubbo.config.bootstrap.builders.ModuleBuilder</node>
+    <node x="0.0" y="632.0">org.apache.dubbo.config.bootstrap.builders.ArgumentBuilder</node>
+    <node x="1183.0" y="558.0">org.apache.dubbo.config.utils.ConfigValidationUtils</node>
+    <node x="776.0" y="632.0">org.apache.dubbo.config.ServiceConfig</node>
+    <node x="502.0" y="558.0">org.apache.dubbo.config.DubboShutdownHook</node>
+    <node x="343.0" y="99.0">org.apache.dubbo.config.bootstrap.builders.ConfigCenterBuilder</node>
+    <node x="345.0" y="410.0">org.apache.dubbo.config.event.DubboShutdownHookRegisteredEvent</node>
+    <node x="1151.0" y="484.0">org.apache.dubbo.config.event.DubboServiceDestroyedEvent</node>
+    <node x="711.9338235294117" y="336.0">org.apache.dubbo.config.bootstrap.builders.ReferenceBuilder</node>
+    <node x="393.0" y="632.0">org.apache.dubbo.config.ReferenceConfig</node>
+    <node x="269.0" y="558.0">org.apache.dubbo.config.utils.ReferenceConfigCache</node>
+    <node x="956.0" y="99.0">org.apache.dubbo.config.bootstrap.builders.MonitorBuilder</node>
+    <node x="220.93382352941177" y="336.0">org.apache.dubbo.config.bootstrap.builders.ServiceBuilder</node>
+    <node x="536.0" y="99.0">org.apache.dubbo.config.bootstrap.builders.AbstractMethodBuilder</node>
+    <node x="959.0" y="558.0">org.apache.dubbo.config.ConfigPostProcessor</node>
+    <node x="197.0" y="632.0">org.apache.dubbo.config.bootstrap.DubboBootstrap</node>
+    <node x="180.0" y="99.0">org.apache.dubbo.config.bootstrap.builders.ProtocolBuilder</node>
+    <node x="747.0" y="99.0">org.apache.dubbo.config.bootstrap.builders.MetadataReportBuilder</node>
+    <node x="656.5" y="178.0">org.apache.dubbo.config.bootstrap.builders.MethodBuilder</node>
+    <node x="1115.0" y="99.0">org.apache.dubbo.config.bootstrap.builders.RegistryBuilder</node>
+    <node x="537.9338235294117" y="336.0">org.apache.dubbo.config.bootstrap.builders.ConsumerBuilder</node>
+    <node x="293.0" y="484.0">org.apache.dubbo.config.event.ReferenceConfigInitializedEvent</node>
+    <node x="663.0588235294117" y="0.0">org.apache.dubbo.config.bootstrap.builders.AbstractBuilder</node>
+    <node x="0.0" y="99.0">org.apache.dubbo.config.bootstrap.builders.ApplicationBuilder</node>
+    <node x="438.5" y="178.0">org.apache.dubbo.config.bootstrap.builders.AbstractInterfaceBuilder</node>
+    <node x="0.0" y="410.0">org.apache.dubbo.config.event.DubboShutdownHookUnregisteredEvent</node>
+    <node x="732.0" y="558.0">org.apache.dubbo.config.event.listener.LoggingEventListener</node>
+    <node x="588.0" y="632.0">org.apache.dubbo.config.ConfigInitializer</node>
+    <node x="580.0" y="484.0">org.apache.dubbo.config.event.ServiceConfigUnexportedEvent</node>
+    <node x="273.68382352941177" y="257.0">org.apache.dubbo.config.bootstrap.builders.AbstractServiceBuilder</node>
+    <node x="375.93382352941177" y="336.0">org.apache.dubbo.config.bootstrap.builders.ProviderBuilder</node>
+    <node x="675.0" y="410.0">org.apache.dubbo.config.metadata.ConfigurableMetadataServiceExporter</node>
+    <node x="1001.0" y="410.0">org.apache.dubbo.config.invoker.DelegateProviderMetaDataInvoker</node>
+    <node x="0.0" y="558.0">org.apache.dubbo.config.event.ServiceConfigExportedEvent</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.AbstractReferenceBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractInterfaceBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="701.4338235294117" y="232.0" />
+      <point x="587.0" y="232.0" />
+      <point x="49.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.ProviderBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractServiceBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="446.93382352941177" y="311.0" />
+      <point x="414.68382352941177" y="311.0" />
+      <point x="47.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.RegistryBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="1185.5" y="59.0" />
+      <point x="780.0588235294117" y="59.0" />
+      <point x="45.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.ServiceBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractServiceBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="288.43382352941177" y="311.0" />
+      <point x="320.68382352941177" y="311.0" />
+      <point x="-47.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.ModuleBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="1344.0" y="49.0" />
+      <point x="798.0588235294117" y="49.0" />
+      <point x="63.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.AbstractInterfaceBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractMethodBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="537.5" y="153.0" />
+      <point x="583.75" y="153.0" />
+      <point x="-47.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.ProtocolBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="251.5" y="59.0" />
+      <point x="690.0588235294117" y="59.0" />
+      <point x="-45.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.AbstractMethodBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="631.5" y="79.0" />
+      <point x="726.0588235294117" y="79.0" />
+      <point x="-9.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.MonitorBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="1025.5" y="69.0" />
+      <point x="762.0588235294117" y="69.0" />
+      <point x="27.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.ConsumerBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractReferenceBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="614.9338235294117" y="311.0" />
+      <point x="650.1838235294117" y="311.0" />
+      <point x="-51.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.MetadataReportBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="841.5" y="79.0" />
+      <point x="744.0588235294117" y="79.0" />
+      <point x="9.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.AbstractServiceBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractInterfaceBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="367.68382352941177" y="232.0" />
+      <point x="488.0" y="232.0" />
+      <point x="-49.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.MethodBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractMethodBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="725.5" y="153.0" />
+      <point x="679.25" y="153.0" />
+      <point x="47.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.ApplicationBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="80.0" y="49.0" />
+      <point x="672.0588235294117" y="49.0" />
+      <point x="-63.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.ConfigCenterBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="429.5" y="69.0" />
+      <point x="708.0588235294117" y="69.0" />
+      <point x="-27.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.bootstrap.builders.ReferenceBuilder" target="org.apache.dubbo.config.bootstrap.builders.AbstractReferenceBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="787.9338235294117" y="311.0" />
+      <point x="752.6838235294117" y="311.0" />
+      <point x="51.25" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="71.5" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

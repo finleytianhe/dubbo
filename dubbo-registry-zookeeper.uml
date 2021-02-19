@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.registry.zookeeper.ZookeeperInstance</OriginalElement>
+  <nodes>
+    <node x="0.0" y="296.0">org.apache.dubbo.registry.zookeeper.util.CuratorFrameworkUtils</node>
+    <node x="235.0" y="296.0">org.apache.dubbo.registry.zookeeper.ZookeeperInstance</node>
+    <node x="0.0" y="74.0">org.apache.dubbo.registry.zookeeper.ZookeeperServiceDiscoveryFactory</node>
+    <node x="0.0" y="222.0">org.apache.dubbo.registry.zookeeper.ZookeeperRegistryFactory</node>
+    <node x="0.0" y="370.0">org.apache.dubbo.registry.zookeeper.ZookeeperRegistry</node>
+    <node x="0.0" y="0.0">org.apache.dubbo.registry.zookeeper.ZookeeperServiceDiscoveryChangeWatcher</node>
+    <node x="255.0" y="222.0">org.apache.dubbo.registry.zookeeper.util.CuratorFrameworkParams</node>
+    <node x="0.0" y="148.0">org.apache.dubbo.registry.zookeeper.ZookeeperServiceDiscovery</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="83.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.remoting.redis.RedisClient</OriginalElement>
+  <nodes>
+    <node x="351.0" y="158.0">org.apache.dubbo.remoting.redis.jedis.SentinelRedisClient</node>
+    <node x="193.0" y="0.0">org.apache.dubbo.remoting.redis.RedisClient</node>
+    <node x="0.0" y="158.0">org.apache.dubbo.remoting.redis.jedis.MonoRedisClient</node>
+    <node x="119.0" y="79.0">org.apache.dubbo.remoting.redis.support.AbstractRedisClient</node>
+    <node x="171.0" y="158.0">org.apache.dubbo.remoting.redis.jedis.ClusterRedisClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.remoting.redis.jedis.SentinelRedisClient" target="org.apache.dubbo.remoting.redis.support.AbstractRedisClient">
+      <point x="-41.25" y="-14.5" />
+      <point x="392.25" y="128.0" />
+      <point x="259.83333333333337" y="128.0" />
+      <point x="56.33333333333334" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.redis.jedis.SentinelRedisClient" target="org.apache.dubbo.remoting.redis.RedisClient">
+      <point x="41.25" y="-14.5" />
+      <point x="474.75" y="49.0" />
+      <point x="294.5" y="49.0" />
+      <point x="43.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.redis.jedis.ClusterRedisClient" target="org.apache.dubbo.remoting.redis.RedisClient">
+      <point x="40.0" y="-14.5" />
+      <point x="291.0" y="138.0" />
+      <point x="298.5" y="138.0" />
+      <point x="298.5" y="59.0" />
+      <point x="265.5" y="59.0" />
+      <point x="14.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.redis.jedis.ClusterRedisClient" target="org.apache.dubbo.remoting.redis.support.AbstractRedisClient">
+      <point x="-40.0" y="-14.5" />
+      <point x="211.0" y="138.0" />
+      <point x="203.5" y="138.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.redis.support.AbstractRedisClient" target="org.apache.dubbo.remoting.redis.RedisClient">
+      <point x="0.0" y="-14.5" />
+      <point x="203.5" y="59.0" />
+      <point x="236.5" y="59.0" />
+      <point x="-14.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.redis.jedis.MonoRedisClient" target="org.apache.dubbo.remoting.redis.RedisClient">
+      <point x="-37.75" y="-14.5" />
+      <point x="37.75" y="138.0" />
+      <point x="45.84375" y="138.0" />
+      <point x="45.84375" y="49.0" />
+      <point x="207.5" y="49.0" />
+      <point x="-43.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.redis.jedis.MonoRedisClient" target="org.apache.dubbo.remoting.redis.support.AbstractRedisClient">
+      <point x="37.75" y="-14.5" />
+      <point x="113.25" y="138.0" />
+      <point x="147.16666666666669" y="138.0" />
+      <point x="-56.333333333333314" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="58.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

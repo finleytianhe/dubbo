@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.common.serialize.Cleanable</OriginalElement>
+  <nodes>
+    <node x="0.0" y="301.0">org.apache.dubbo.common.serialize.Constants</node>
+    <node x="0.0" y="227.0">org.apache.dubbo.common.serialize.support.SerializationOptimizer</node>
+    <node x="183.0" y="0.0">org.apache.dubbo.common.serialize.DataInput</node>
+    <node x="157.0" y="301.0">org.apache.dubbo.common.serialize.Cleanable</node>
+    <node x="0.0" y="153.0">org.apache.dubbo.common.serialize.support.SerializableClassRegistry</node>
+    <node x="226.0" y="227.0">org.apache.dubbo.common.serialize.Serialization</node>
+    <node x="6.0" y="0.0">org.apache.dubbo.common.serialize.DataOutput</node>
+    <node x="177.0" y="79.0">org.apache.dubbo.common.serialize.ObjectInput</node>
+    <node x="0.0" y="79.0">org.apache.dubbo.common.serialize.ObjectOutput</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.common.serialize.ObjectInput" target="org.apache.dubbo.common.serialize.DataInput">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.serialize.ObjectOutput" target="org.apache.dubbo.common.serialize.DataOutput">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="53.5" y="5.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

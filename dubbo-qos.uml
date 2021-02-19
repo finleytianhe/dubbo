@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.qos.command.BaseCommand</OriginalElement>
+  <nodes>
+    <node x="165.0" y="840.0">org.apache.dubbo.qos.server.Server</node>
+    <node x="494.0" y="396.0">org.apache.dubbo.qos.legacy.ShutdownTelnetHandler</node>
+    <node x="202.0" y="766.0">org.apache.dubbo.qos.legacy.ListTelnetHandler</node>
+    <node x="452.0" y="544.0">org.apache.dubbo.qos.protocol.QosProtocolWrapper</node>
+    <node x="0.0" y="396.0">org.apache.dubbo.qos.command.CommandContextFactory</node>
+    <node x="218.0" y="618.0">org.apache.dubbo.qos.legacy.CountTelnetHandler</node>
+    <node x="469.0" y="243.0">org.apache.dubbo.qos.command.CommandExecutor</node>
+    <node x="598.0" y="766.0">org.apache.dubbo.qos.common.QosConstants</node>
+    <node x="403.0" y="766.0">org.apache.dubbo.qos.command.util.CommandHelper</node>
+    <node x="622.0" y="692.0">org.apache.dubbo.qos.command.util.ServiceCheckUtils</node>
+    <node x="773.0" y="169.0">org.apache.dubbo.qos.command.impl.Ready</node>
+    <node x="304.0" y="169.0">org.apache.dubbo.qos.command.impl.Help</node>
+    <node x="197.0" y="169.0">org.apache.dubbo.qos.command.impl.Online</node>
+    <node x="227.0" y="322.0">org.apache.dubbo.qos.textui.TTree</node>
+    <node x="435.0" y="618.0">org.apache.dubbo.qos.legacy.SelectTelnetHandler</node>
+    <node x="0.0" y="618.0">org.apache.dubbo.qos.server.handler.HttpProcessHandler</node>
+    <node x="0.0" y="470.0">org.apache.dubbo.qos.server.handler.LocalHostPermitHandler</node>
+    <node x="447.0" y="322.0">org.apache.dubbo.qos.command.DefaultCommandExecutor</node>
+    <node x="115.0" y="169.0">org.apache.dubbo.qos.command.impl.Ls</node>
+    <node x="0.0" y="692.0">org.apache.dubbo.qos.legacy.TraceTelnetHandler</node>
+    <node x="0.0" y="840.0">org.apache.dubbo.qos.server.DubboLogo</node>
+    <node x="400.0" y="169.0">org.apache.dubbo.qos.command.impl.PublishMetadata</node>
+    <node x="679.0" y="169.0">org.apache.dubbo.qos.command.impl.Quit</node>
+    <node x="469.75" y="0.0">org.apache.dubbo.qos.command.annotation.Cmd</node>
+    <node x="261.75" y="0.0">org.apache.dubbo.qos.command.BaseCommand</node>
+    <node x="109.00000000000001" y="322.0">org.apache.dubbo.qos.textui.TLadder</node>
+    <node x="0.0" y="766.0">org.apache.dubbo.qos.legacy.LogTelnetHandler</node>
+    <node x="418.0" y="692.0">org.apache.dubbo.qos.command.CommandContext</node>
+    <node x="476.0" y="470.0">org.apache.dubbo.qos.server.handler.TelnetProcessHandler</node>
+    <node x="570.0" y="169.0">org.apache.dubbo.qos.command.impl.Offline</node>
+    <node x="0.0" y="544.0">org.apache.dubbo.qos.legacy.CurrentTelnetHandler</node>
+    <node x="250.0" y="396.0">org.apache.dubbo.qos.command.decoder.TelnetCommandDecoder</node>
+    <node x="0.0" y="169.0">org.apache.dubbo.qos.command.impl.Version</node>
+    <node x="242.0" y="470.0">org.apache.dubbo.qos.command.decoder.HttpCommandDecoder</node>
+    <node x="226.0" y="544.0">org.apache.dubbo.qos.legacy.ChangeTelnetHandler</node>
+    <node x="675.0" y="544.0">org.apache.dubbo.qos.legacy.InvokeTelnetHandler</node>
+    <node x="149.25" y="243.0">org.apache.dubbo.qos.textui.TComponent</node>
+    <node x="330.0" y="322.0">org.apache.dubbo.qos.textui.TKv</node>
+    <node x="213.0" y="692.0">org.apache.dubbo.qos.legacy.PortTelnetHandler</node>
+    <node x="0.0" y="322.0">org.apache.dubbo.qos.textui.TTable</node>
+    <node x="651.0" y="618.0">org.apache.dubbo.qos.server.handler.QosProcessHandler</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.qos.command.impl.PublishMetadata" target="org.apache.dubbo.qos.command.BaseCommand">
+      <point x="-37.5" y="-14.5" />
+      <point x="437.5" y="109.0" />
+      <point x="340.5" y="109.0" />
+      <point x="8.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Ready" target="org.apache.dubbo.qos.command.annotation.Cmd">
+      <point x="21.25" y="-14.5" />
+      <point x="836.75" y="49.0" />
+      <point x="541.0" y="49.0" />
+      <point x="33.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Help" target="org.apache.dubbo.qos.command.BaseCommand">
+      <point x="-19.0" y="-14.5" />
+      <point x="-8.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Ls" target="org.apache.dubbo.qos.command.BaseCommand">
+      <point x="-15.5" y="-14.5" />
+      <point x="130.5" y="99.0" />
+      <point x="288.0" y="99.0" />
+      <point x="-43.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Offline" target="org.apache.dubbo.qos.command.annotation.Cmd">
+      <point x="22.25" y="-14.5" />
+      <point x="636.75" y="89.0" />
+      <point x="522.0" y="89.0" />
+      <point x="14.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Ready" target="org.apache.dubbo.qos.command.BaseCommand">
+      <point x="-21.25" y="-14.5" />
+      <point x="794.25" y="59.0" />
+      <point x="393.0" y="59.0" />
+      <point x="61.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Offline" target="org.apache.dubbo.qos.command.BaseCommand">
+      <point x="-22.25" y="-14.5" />
+      <point x="592.25" y="99.0" />
+      <point x="358.0" y="99.0" />
+      <point x="26.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Version" target="org.apache.dubbo.qos.command.BaseCommand">
+      <point x="-23.75" y="-14.5" />
+      <point x="23.75" y="89.0" />
+      <point x="270.5" y="89.0" />
+      <point x="-61.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Online" target="org.apache.dubbo.qos.command.BaseCommand">
+      <point x="-21.75" y="-14.5" />
+      <point x="218.75" y="109.0" />
+      <point x="305.5" y="109.0" />
+      <point x="-26.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Ls" target="org.apache.dubbo.qos.command.annotation.Cmd">
+      <point x="15.5" y="-14.5" />
+      <point x="161.5" y="129.0" />
+      <point x="484.0" y="129.0" />
+      <point x="-23.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Quit" target="org.apache.dubbo.qos.command.BaseCommand">
+      <point x="-18.5" y="-14.5" />
+      <point x="697.5" y="79.0" />
+      <point x="375.5" y="79.0" />
+      <point x="43.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Quit" target="org.apache.dubbo.qos.command.annotation.Cmd">
+      <point x="18.5" y="-14.5" />
+      <point x="734.5" y="69.0" />
+      <point x="531.5" y="69.0" />
+      <point x="23.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.textui.TTree" target="org.apache.dubbo.qos.textui.TComponent">
+      <point x="0.0" y="-14.5" />
+      <point x="268.5" y="302.0" />
+      <point x="229.25" y="302.0" />
+      <point x="16.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.PublishMetadata" target="org.apache.dubbo.qos.command.annotation.Cmd">
+      <point x="37.5" y="-14.5" />
+      <point x="4.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Online" target="org.apache.dubbo.qos.command.annotation.Cmd">
+      <point x="21.75" y="-14.5" />
+      <point x="262.25" y="139.0" />
+      <point x="493.5" y="139.0" />
+      <point x="-14.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.textui.TLadder" target="org.apache.dubbo.qos.textui.TComponent">
+      <point x="0.0" y="-14.5" />
+      <point x="158.0" y="302.0" />
+      <point x="197.25" y="302.0" />
+      <point x="-16.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.textui.TKv" target="org.apache.dubbo.qos.textui.TComponent">
+      <point x="0.0" y="-14.5" />
+      <point x="366.0" y="292.0" />
+      <point x="261.25" y="292.0" />
+      <point x="48.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.DefaultCommandExecutor" target="org.apache.dubbo.qos.command.CommandExecutor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Version" target="org.apache.dubbo.qos.command.annotation.Cmd">
+      <point x="23.75" y="-14.5" />
+      <point x="71.25" y="119.0" />
+      <point x="474.5" y="119.0" />
+      <point x="-33.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.command.impl.Help" target="org.apache.dubbo.qos.command.annotation.Cmd">
+      <point x="19.0" y="-14.5" />
+      <point x="361.0" y="149.0" />
+      <point x="503.0" y="149.0" />
+      <point x="-4.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.qos.textui.TTable" target="org.apache.dubbo.qos.textui.TComponent">
+      <point x="0.0" y="-14.5" />
+      <point x="44.5" y="292.0" />
+      <point x="165.25" y="292.0" />
+      <point x="-48.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="70.0" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

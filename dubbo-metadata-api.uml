@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.metadata.DefaultMetadataParamsFilter</OriginalElement>
+  <nodes>
+    <node x="1101.0" y="237.0">org.apache.dubbo.metadata.rest.jaxrs.FormParamParameterProcessor</node>
+    <node x="919.0" y="469.0">org.apache.dubbo.metadata.store.AbstractAbstractWritableMetadataService</node>
+    <node x="464.25" y="543.0">org.apache.dubbo.metadata.report.identifier.BaseApplicationMetadataIdentifier</node>
+    <node x="464.0" y="849.0">org.apache.dubbo.metadata.MetadataChangeListener</node>
+    <node x="313.0" y="469.0">org.apache.dubbo.metadata.rest.jaxrs.JAXRSServiceRestMetadataResolver</node>
+    <node x="1436.0" y="849.0">org.apache.dubbo.metadata.definition.ServiceDefinitionBuilder</node>
+    <node x="0.0" y="1150.0">org.apache.dubbo.metadata.definition.util.ClassUtils</node>
+    <node x="976.0" y="775.0">org.apache.dubbo.metadata.DefaultMetadataParamsFilter</node>
+    <node x="1148.0" y="1002.0">org.apache.dubbo.metadata.rest.ServiceRestMetadata</node>
+    <node x="0.0" y="1076.0">org.apache.dubbo.metadata.definition.builder.DefaultTypeBuilder</node>
+    <node x="0.0" y="928.0">org.apache.dubbo.metadata.definition.model.FullServiceDefinition</node>
+    <node x="1136.181818181818" y="158.0">org.apache.dubbo.metadata.rest.jaxrs.HeaderParamParameterProcessor</node>
+    <node x="710.0" y="849.0">org.apache.dubbo.metadata.report.MetadataReportInstance</node>
+    <node x="475.0" y="1002.0">org.apache.dubbo.metadata.definition.TypeDefinitionBuilder</node>
+    <node x="1284.25" y="622.0">org.apache.dubbo.metadata.definition.builder.CollectionTypeBuilder</node>
+    <node x="1044.5" y="543.0">org.apache.dubbo.metadata.definition.builder.TypeBuilder</node>
+    <node x="602.0" y="469.0">org.apache.dubbo.metadata.rest.DefaultServiceRestMetadataResolver</node>
+    <node x="700.0" y="1002.0">org.apache.dubbo.metadata.rest.RestMethodMetadata</node>
+    <node x="958.25" y="0.0">org.apache.dubbo.metadata.rest.AnnotatedMethodParameterProcessor</node>
+    <node x="1363.0" y="1076.0">org.apache.dubbo.metadata.MetadataInfo</node>
+    <node x="0.0" y="775.0">org.apache.dubbo.metadata.DynamicConfigurationServiceNameMapping</node>
+    <node x="99.5" y="158.0">org.apache.dubbo.metadata.rest.springmvc.AbstractRequestAnnotationParameterProcessor</node>
+    <node x="410.0" y="1076.0">org.apache.dubbo.metadata.definition.model.MethodDefinition</node>
+    <node x="1182.0" y="1076.0">org.apache.dubbo.metadata.report.identifier.KeyTypeEnum</node>
+    <node x="0.0" y="543.0">org.apache.dubbo.metadata.report.identifier.BaseServiceMetadataIdentifier</node>
+    <node x="997.5" y="311.0">org.apache.dubbo.metadata.MetadataService</node>
+    <node x="805.0" y="1076.0">org.apache.dubbo.metadata.MappingListener</node>
+    <node x="998.0" y="696.0">org.apache.dubbo.metadata.MetadataParamsFilter</node>
+    <node x="924.0" y="1002.0">org.apache.dubbo.metadata.MetadataServiceType</node>
+    <node x="424.5" y="622.0">org.apache.dubbo.metadata.report.identifier.SubscriberMetadataIdentifier</node>
+    <node x="1369.0" y="1002.0">org.apache.dubbo.metadata.MetadataConstants</node>
+    <node x="333.5" y="311.0">org.apache.dubbo.metadata.rest.ServiceRestMetadataResolver</node>
+    <node x="0.0" y="237.0">org.apache.dubbo.metadata.rest.springmvc.RequestParamParameterProcessor</node>
+    <node x="210.0" y="1076.0">org.apache.dubbo.metadata.rest.RequestMetadata</node>
+    <node x="1271.5" y="696.0">org.apache.dubbo.metadata.report.MetadataReport</node>
+    <node x="255.24999999999997" y="543.0">org.apache.dubbo.metadata.report.identifier.BaseMetadataIdentifier</node>
+    <node x="10.5" y="849.0">org.apache.dubbo.metadata.definition.model.ServiceDefinition</node>
+    <node x="712.5" y="696.0">org.apache.dubbo.metadata.report.MetadataReportFactory</node>
+    <node x="837.1818181818181" y="158.0">org.apache.dubbo.metadata.rest.jaxrs.ParamAnnotationParameterProcessor</node>
+    <node x="68.5" y="696.0">org.apache.dubbo.metadata.ServiceNameMapping</node>
+    <node x="1410.181818181818" y="158.0">org.apache.dubbo.metadata.rest.jaxrs.DefaultValueParameterProcessor</node>
+    <node x="0.0" y="1002.0">org.apache.dubbo.metadata.definition.util.JaketConfigurationUtils</node>
+    <node x="0.0" y="469.0">org.apache.dubbo.metadata.rest.springmvc.SpringMvcServiceRestMetadataResolver</node>
+    <node x="953.0" y="849.0">org.apache.dubbo.metadata.definition.MethodDefinitionBuilder</node>
+    <node x="230.49999999999997" y="622.0">org.apache.dubbo.metadata.report.identifier.MetadataIdentifier</node>
+    <node x="392.5" y="696.0">org.apache.dubbo.metadata.rest.ServiceRestMetadataReader</node>
+    <node x="1000.0" y="1076.0">org.apache.dubbo.metadata.definition.model.TypeDefinition</node>
+    <node x="833.0" y="237.0">org.apache.dubbo.metadata.rest.jaxrs.MatrixParamParameterProcessor</node>
+    <node x="931.75" y="79.0">org.apache.dubbo.metadata.rest.AbstractAnnotatedMethodParameterProcessor</node>
+    <node x="566.0" y="237.0">org.apache.dubbo.metadata.rest.jaxrs.QueryParamParameterProcessor</node>
+    <node x="217.0" y="849.0">org.apache.dubbo.metadata.MetadataServiceExporter</node>
+    <node x="972.0" y="390.0">org.apache.dubbo.metadata.WritableMetadataService</node>
+    <node x="7.5" y="622.0">org.apache.dubbo.metadata.report.identifier.ServiceMetadataIdentifier</node>
+    <node x="307.0" y="390.0">org.apache.dubbo.metadata.rest.AbstractServiceRestMetadataResolver</node>
+    <node x="239.0" y="1002.0">org.apache.dubbo.metadata.MappingChangedEvent</node>
+    <node x="609.0" y="1076.0">org.apache.dubbo.metadata.RevisionResolver</node>
+    <node x="280.0" y="237.0">org.apache.dubbo.metadata.rest.springmvc.RequestHeaderParameterProcessor</node>
+    <node x="1117.25" y="622.0">org.apache.dubbo.metadata.definition.builder.MapTypeBuilder</node>
+    <node x="1195.0" y="849.0">org.apache.dubbo.metadata.rest.RestMetadataConstants</node>
+    <node x="686.0" y="775.0">org.apache.dubbo.metadata.report.support.AbstractMetadataReportFactory</node>
+    <node x="1537.0" y="1076.0">org.apache.dubbo.metadata.report.support.Constants</node>
+    <node x="941.2500000000001" y="622.0">org.apache.dubbo.metadata.definition.builder.EnumTypeBuilder</node>
+    <node x="362.0" y="775.0">org.apache.dubbo.metadata.rest.ClassPathServiceRestMetadataReader</node>
+    <node x="1245.0" y="775.0">org.apache.dubbo.metadata.report.support.AbstractMetadataReport</node>
+    <node x="767.2500000000001" y="622.0">org.apache.dubbo.metadata.definition.builder.ArrayTypeBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.metadata.report.identifier.MetadataIdentifier" target="org.apache.dubbo.metadata.report.identifier.BaseServiceMetadataIdentifier">
+      <point x="-39.75" y="-14.5" />
+      <point x="270.25" y="592.0" />
+      <point x="174.75" y="592.0" />
+      <point x="58.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.definition.model.FullServiceDefinition" target="org.apache.dubbo.metadata.definition.model.ServiceDefinition">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.jaxrs.JAXRSServiceRestMetadataResolver" target="org.apache.dubbo.metadata.rest.AbstractServiceRestMetadataResolver">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.report.identifier.ServiceMetadataIdentifier" target="org.apache.dubbo.metadata.report.identifier.BaseMetadataIdentifier">
+      <point x="50.75" y="-14.5" />
+      <point x="159.75" y="602.0" />
+      <point x="286.75" y="602.0" />
+      <point x="-63.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.definition.builder.MapTypeBuilder" target="org.apache.dubbo.metadata.definition.builder.TypeBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="1190.75" y="602.0" />
+      <point x="1120.125" y="602.0" />
+      <point x="15.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.report.identifier.ServiceMetadataIdentifier" target="org.apache.dubbo.metadata.report.identifier.BaseServiceMetadataIdentifier">
+      <point x="-50.75" y="-14.5" />
+      <point x="-58.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.report.identifier.MetadataIdentifier" target="org.apache.dubbo.metadata.report.identifier.BaseMetadataIdentifier">
+      <point x="39.75" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.report.support.AbstractMetadataReport" target="org.apache.dubbo.metadata.report.MetadataReport">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.ClassPathServiceRestMetadataReader" target="org.apache.dubbo.metadata.rest.ServiceRestMetadataReader">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.DefaultServiceRestMetadataResolver" target="org.apache.dubbo.metadata.rest.AbstractServiceRestMetadataResolver">
+      <point x="0.0" y="-14.5" />
+      <point x="738.0" y="444.0" />
+      <point x="541.1666666666667" y="444.0" />
+      <point x="93.66666666666669" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.DynamicConfigurationServiceNameMapping" target="org.apache.dubbo.metadata.ServiceNameMapping">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.jaxrs.MatrixParamParameterProcessor" target="org.apache.dubbo.metadata.rest.jaxrs.ParamAnnotationParameterProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="957.0" y="212.0" />
+      <point x="976.6818181818181" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.report.identifier.SubscriberMetadataIdentifier" target="org.apache.dubbo.metadata.report.identifier.BaseApplicationMetadataIdentifier">
+      <point x="56.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.report.support.AbstractMetadataReportFactory" target="org.apache.dubbo.metadata.report.MetadataReportFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.AbstractAnnotatedMethodParameterProcessor" target="org.apache.dubbo.metadata.rest.AnnotatedMethodParameterProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.springmvc.RequestParamParameterProcessor" target="org.apache.dubbo.metadata.rest.springmvc.AbstractRequestAnnotationParameterProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="130.0" y="212.0" />
+      <point x="185.5" y="212.0" />
+      <point x="-86.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.definition.builder.ArrayTypeBuilder" target="org.apache.dubbo.metadata.definition.builder.TypeBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="844.2500000000001" y="592.0" />
+      <point x="1059.625" y="592.0" />
+      <point x="-45.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.jaxrs.QueryParamParameterProcessor" target="org.apache.dubbo.metadata.rest.jaxrs.ParamAnnotationParameterProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="689.5" y="212.0" />
+      <point x="883.6818181818181" y="212.0" />
+      <point x="-93.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.springmvc.AbstractRequestAnnotationParameterProcessor" target="org.apache.dubbo.metadata.rest.AbstractAnnotatedMethodParameterProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="271.5" y="128.0" />
+      <point x="973.875" y="128.0" />
+      <point x="-126.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.definition.builder.CollectionTypeBuilder" target="org.apache.dubbo.metadata.definition.builder.TypeBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="1375.25" y="592.0" />
+      <point x="1150.375" y="592.0" />
+      <point x="45.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.WritableMetadataService" target="org.apache.dubbo.metadata.MetadataService">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.definition.builder.EnumTypeBuilder" target="org.apache.dubbo.metadata.definition.builder.TypeBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="1019.2500000000001" y="602.0" />
+      <point x="1089.875" y="602.0" />
+      <point x="-15.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.jaxrs.DefaultValueParameterProcessor" target="org.apache.dubbo.metadata.rest.AbstractAnnotatedMethodParameterProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="1535.181818181818" y="128.0" />
+      <point x="1226.625" y="128.0" />
+      <point x="126.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.jaxrs.HeaderParamParameterProcessor" target="org.apache.dubbo.metadata.rest.AbstractAnnotatedMethodParameterProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="1263.181818181818" y="138.0" />
+      <point x="1142.375" y="138.0" />
+      <point x="42.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.store.AbstractAbstractWritableMetadataService" target="org.apache.dubbo.metadata.WritableMetadataService">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.DefaultMetadataParamsFilter" target="org.apache.dubbo.metadata.MetadataParamsFilter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.jaxrs.FormParamParameterProcessor" target="org.apache.dubbo.metadata.rest.jaxrs.ParamAnnotationParameterProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="1221.5" y="212.0" />
+      <point x="1069.6818181818182" y="212.0" />
+      <point x="93.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.AbstractServiceRestMetadataResolver" target="org.apache.dubbo.metadata.rest.ServiceRestMetadataResolver">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.jaxrs.ParamAnnotationParameterProcessor" target="org.apache.dubbo.metadata.rest.AbstractAnnotatedMethodParameterProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="976.6818181818181" y="138.0" />
+      <point x="1058.125" y="138.0" />
+      <point x="-42.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.springmvc.SpringMvcServiceRestMetadataResolver" target="org.apache.dubbo.metadata.rest.AbstractServiceRestMetadataResolver">
+      <point x="0.0" y="-14.5" />
+      <point x="146.5" y="444.0" />
+      <point x="353.8333333333333" y="444.0" />
+      <point x="-93.66666666666667" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.rest.springmvc.RequestHeaderParameterProcessor" target="org.apache.dubbo.metadata.rest.springmvc.AbstractRequestAnnotationParameterProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="413.0" y="212.0" />
+      <point x="357.5" y="212.0" />
+      <point x="86.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.metadata.report.identifier.SubscriberMetadataIdentifier" target="org.apache.dubbo.metadata.report.identifier.BaseMetadataIdentifier">
+      <point x="-56.25" y="-14.5" />
+      <point x="480.75" y="602.0" />
+      <point x="412.75" y="602.0" />
+      <point x="63.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="149.0" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.monitor.Constants</OriginalElement>
+  <nodes>
+    <node x="0.0" y="227.0">org.apache.dubbo.monitor.support.MetricsServiceDetector</node>
+    <node x="0.0" y="301.0">org.apache.dubbo.monitor.support.MonitorFilter</node>
+    <node x="0.0" y="153.0">org.apache.dubbo.monitor.support.MonitorServiceDetector</node>
+    <node x="171.0" y="301.0">org.apache.dubbo.monitor.Constants</node>
+    <node x="235.0" y="227.0">org.apache.dubbo.monitor.MetricsService</node>
+    <node x="26.5" y="0.0">org.apache.dubbo.monitor.MonitorFactory</node>
+    <node x="0.0" y="79.0">org.apache.dubbo.monitor.support.AbstractMonitorFactory</node>
+    <node x="262.0" y="79.0">org.apache.dubbo.monitor.Monitor</node>
+    <node x="240.0" y="0.0">org.apache.dubbo.monitor.MonitorService</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.monitor.support.AbstractMonitorFactory" target="org.apache.dubbo.monitor.MonitorFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.monitor.Monitor" target="org.apache.dubbo.monitor.MonitorService">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="56.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

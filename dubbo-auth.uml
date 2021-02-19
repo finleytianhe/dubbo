@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.auth.AccessKeyAuthenticator</OriginalElement>
+  <nodes>
+    <node x="0.0" y="380.0">org.apache.dubbo.auth.model.AccessKeyPair</node>
+    <node x="213.0" y="306.0">org.apache.dubbo.auth.filter.ProviderAuthFilter</node>
+    <node x="183.0" y="380.0">org.apache.dubbo.auth.utils.SignatureUtils</node>
+    <node x="0.0" y="454.0">org.apache.dubbo.auth.Constants</node>
+    <node x="0.0" y="232.0">org.apache.dubbo.auth.AccessKeyAuthenticator</node>
+    <node x="33.5" y="153.0">org.apache.dubbo.auth.spi.Authenticator</node>
+    <node x="0.0" y="306.0">org.apache.dubbo.auth.filter.ConsumerSignFilter</node>
+    <node x="22.0" y="0.0">org.apache.dubbo.auth.spi.AccessKeyStorage</node>
+    <node x="0.0" y="79.0">org.apache.dubbo.auth.DefaultAccessKeyStorage</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.auth.AccessKeyAuthenticator" target="org.apache.dubbo.auth.spi.Authenticator">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.auth.DefaultAccessKeyStorage" target="org.apache.dubbo.auth.spi.AccessKeyStorage">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="100.0" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

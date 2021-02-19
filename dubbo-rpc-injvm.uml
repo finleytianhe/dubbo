@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.rpc.protocol.injvm.InjvmExporter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">org.apache.dubbo.rpc.protocol.injvm.InjvmExporter</node>
+    <node x="0.0" y="74.0">org.apache.dubbo.rpc.protocol.injvm.InjvmProtocol</node>
+    <node x="0.0" y="148.0">org.apache.dubbo.rpc.protocol.injvm.InjvmInvoker</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="188.5" y="249.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

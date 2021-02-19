@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.registry.nacos.NacosRegistry</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">org.apache.dubbo.registry.nacos.NacosServiceDiscoveryFactory</node>
+    <node x="0.0" y="148.0">org.apache.dubbo.registry.nacos.util.NacosNamingServiceUtils</node>
+    <node x="0.0" y="74.0">org.apache.dubbo.registry.nacos.util.NacosInstanceManageUtil</node>
+    <node x="0.0" y="370.0">org.apache.dubbo.registry.nacos.NacosRegistry</node>
+    <node x="0.0" y="296.0">org.apache.dubbo.registry.nacos.NacosRegistryFactory</node>
+    <node x="0.0" y="222.0">org.apache.dubbo.registry.nacos.NacosServiceDiscovery</node>
+    <node x="228.0" y="296.0">org.apache.dubbo.registry.nacos.NacosServiceName</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="121.5" y="172.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

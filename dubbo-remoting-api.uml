@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.remoting.Channel</OriginalElement>
+  <nodes>
+    <node x="3434.8660835762876" y="297.0">org.apache.dubbo.remoting.transport.dispatcher.execution.ExecutionChannelHandler</node>
+    <node x="1589.6160835762873" y="0.0">org.apache.dubbo.remoting.ChannelHandler</node>
+    <node x="985.6160835762873" y="297.0">org.apache.dubbo.remoting.exchange.ExchangeServer</node>
+    <node x="2274.3660835762876" y="89.0">org.apache.dubbo.remoting.telnet.support.Help</node>
+    <node x="1440.5" y="529.0">org.apache.dubbo.remoting.transport.dispatcher.execution.ExecutionDispatcher</node>
+    <node x="1851.5" y="529.0">org.apache.dubbo.remoting.transport.dispatcher.direct.DirectDispatcher</node>
+    <node x="171.0" y="218.0">org.apache.dubbo.remoting.exchange.ExchangeChannel</node>
+    <node x="2233.0" y="450.0">org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask</node>
+    <node x="257.0" y="761.0">org.apache.dubbo.remoting.transport.dispatcher.ChannelEventRunnable</node>
+    <node x="470.4494169096206" y="0.0">org.apache.dubbo.remoting.Endpoint</node>
+    <node x="302.6994169096206" y="297.0">org.apache.dubbo.remoting.exchange.ExchangeClient</node>
+    <node x="851.3660835762873" y="376.0">org.apache.dubbo.remoting.exchange.support.ExchangeServerDelegate</node>
+    <node x="2181.8660835762876" y="218.0">org.apache.dubbo.remoting.telnet.support.command.StatusTelnetHandler</node>
+    <node x="1996.8660835762873" y="218.0">org.apache.dubbo.remoting.telnet.support.command.ClearTelnetHandler</node>
+    <node x="3525.5" y="450.0">org.apache.dubbo.remoting.transport.ExceedPayloadLimitException</node>
+    <node x="1252.0" y="761.0">org.apache.dubbo.remoting.exchange.support.DefaultFuture</node>
+    <node x="1070.0" y="761.0">org.apache.dubbo.remoting.transport.CodecSupport</node>
+    <node x="1471.0" y="450.0">org.apache.dubbo.remoting.Dispatcher</node>
+    <node x="3661.8660835762876" y="297.0">org.apache.dubbo.remoting.transport.dispatcher.all.AllChannelHandler</node>
+    <node x="3145.5" y="450.0">org.apache.dubbo.remoting.exchange.Exchanger</node>
+    <node x="2859.5" y="529.0">org.apache.dubbo.remoting.buffer.DirectChannelBufferFactory</node>
+    <node x="3325.5" y="529.0">org.apache.dubbo.remoting.exchange.support.ReplierDispatcher</node>
+    <node x="1616.8660835762873" y="218.0">org.apache.dubbo.remoting.telnet.support.TelnetHandlerAdapter</node>
+    <node x="533.5" y="608.0">org.apache.dubbo.remoting.buffer.ByteBufferBackedChannelBuffer</node>
+    <node x="3800.5" y="450.0">org.apache.dubbo.remoting.buffer.ChannelBufferOutputStream</node>
+    <node x="2886.0" y="761.0">org.apache.dubbo.remoting.utils.UrlUtils</node>
+    <node x="1565.1160835762873" y="89.0">org.apache.dubbo.remoting.transport.ChannelHandlerAdapter</node>
+    <node x="1779.0" y="761.0">org.apache.dubbo.remoting.Transporter</node>
+    <node x="589.5" y="450.0">org.apache.dubbo.remoting.buffer.ChannelBuffer</node>
+    <node x="1554.6160835762873" y="297.0">org.apache.dubbo.remoting.exchange.support.ExchangeHandlerAdapter</node>
+    <node x="881.0" y="761.0">org.apache.dubbo.remoting.buffer.ChannelBuffers</node>
+    <node x="1429.0" y="761.0">org.apache.dubbo.remoting.exchange.support.MultiMessage</node>
+    <node x="3842.8660835762876" y="297.0">org.apache.dubbo.remoting.transport.dispatcher.direct.DirectChannelHandler</node>
+    <node x="223.3244169096206" y="89.0">org.apache.dubbo.remoting.Channel</node>
+    <node x="0.0" y="687.0">org.apache.dubbo.remoting.exchange.codec.ExchangeCodec</node>
+    <node x="3641.3660835762876" y="218.0">org.apache.dubbo.remoting.transport.dispatcher.WrappedChannelHandler</node>
+    <node x="4044.8660835762876" y="297.0">org.apache.dubbo.remoting.transport.dispatcher.message.MessageOnlyChannelHandler</node>
+    <node x="2624.5" y="529.0">org.apache.dubbo.remoting.buffer.HeapChannelBufferFactory</node>
+    <node x="1291.5" y="529.0">org.apache.dubbo.remoting.transport.dispatcher.all.AllDispatcher</node>
+    <node x="825.6160835762873" y="297.0">org.apache.dubbo.remoting.transport.AbstractServer</node>
+    <node x="0.0" y="218.0">org.apache.dubbo.remoting.transport.ChannelDelegate</node>
+    <node x="2274.0" y="761.0">org.apache.dubbo.remoting.telnet.support.TelnetUtils</node>
+    <node x="2557.8660835762876" y="218.0">org.apache.dubbo.remoting.telnet.support.command.ExitTelnetHandler</node>
+    <node x="2590.0" y="761.0">org.apache.dubbo.remoting.exchange.Response</node>
+    <node x="2375.8660835762876" y="218.0">org.apache.dubbo.remoting.telnet.support.command.HelpTelnetHandler</node>
+    <node x="105.0" y="450.0">org.apache.dubbo.remoting.Codec2</node>
+    <node x="1945.0" y="761.0">org.apache.dubbo.remoting.exchange.Exchangers</node>
+    <node x="1312.6160835762873" y="297.0">org.apache.dubbo.remoting.exchange.support.ExchangeHandlerDispatcher</node>
+    <node x="1635.5" y="529.0">org.apache.dubbo.remoting.transport.dispatcher.message.MessageOnlyDispatcher</node>
+    <node x="3.5" y="529.0">org.apache.dubbo.remoting.transport.AbstractCodec</node>
+    <node x="1606.0" y="761.0">org.apache.dubbo.remoting.Transporters</node>
+    <node x="1071.3660835762873" y="376.0">org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeServer</node>
+    <node x="2743.0" y="761.0">org.apache.dubbo.remoting.exchange.Request</node>
+    <node x="349.0" y="218.0">org.apache.dubbo.remoting.transport.AbstractChannel</node>
+    <node x="2890.6160835762876" y="89.0">org.apache.dubbo.remoting.transport.ChannelHandlerDispatcher</node>
+    <node x="280.6994169096206" y="376.0">org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient</node>
+    <node x="512.0637998056359" y="89.0">org.apache.dubbo.remoting.transport.AbstractPeer</node>
+    <node x="3123.5" y="529.0">org.apache.dubbo.remoting.exchange.support.header.HeaderExchanger</node>
+    <node x="3147.8660835762876" y="297.0">org.apache.dubbo.remoting.transport.dispatcher.connection.ConnectionOrderedChannelHandler</node>
+    <node x="563.0" y="529.0">org.apache.dubbo.remoting.buffer.AbstractChannelBuffer</node>
+    <node x="2759.0" y="450.0">org.apache.dubbo.remoting.buffer.ChannelBufferFactory</node>
+    <node x="0.0" y="761.0">org.apache.dubbo.remoting.buffer.ChannelBufferInputStream</node>
+    <node x="669.6160835762873" y="297.0">org.apache.dubbo.remoting.transport.AbstractClient</node>
+    <node x="690.0" y="761.0">org.apache.dubbo.remoting.utils.PayloadDropper</node>
+    <node x="802.5" y="608.0">org.apache.dubbo.remoting.buffer.DynamicChannelBuffer</node>
+    <node x="1036.5" y="529.0">org.apache.dubbo.remoting.transport.dispatcher.connection.ConnectionOrderedDispatcher</node>
+    <node x="737.6160835762873" y="218.0">org.apache.dubbo.remoting.transport.AbstractEndpoint</node>
+    <node x="1819.8660835762873" y="218.0">org.apache.dubbo.remoting.telnet.support.command.LogTelnetHandler</node>
+    <node x="492.0" y="761.0">org.apache.dubbo.remoting.transport.dispatcher.ChannelHandlers</node>
+    <node x="1971.1160835762873" y="89.0">org.apache.dubbo.remoting.telnet.TelnetHandler</node>
+    <node x="985.4583333333333" y="218.0">org.apache.dubbo.remoting.RemotingServer</node>
+    <node x="935.0357142857142" y="89.0">org.apache.dubbo.remoting.IdleSensible</node>
+    <node x="529.5416666666665" y="218.0">org.apache.dubbo.remoting.Client</node>
+    <node x="11.0" y="608.0">org.apache.dubbo.remoting.telnet.codec.TelnetCodec</node>
+    <node x="2433.0" y="761.0">org.apache.dubbo.remoting.Constants</node>
+    <node x="1152.6160835762873" y="297.0">org.apache.dubbo.remoting.transport.ServerDelegate</node>
+    <node x="2488.0608357628757" y="297.0">org.apache.dubbo.remoting.transport.DecodeHandler</node>
+    <node x="2970.8660835762876" y="297.0">org.apache.dubbo.remoting.exchange.support.header.HeartbeatHandler</node>
+    <node x="2734.8660835762876" y="218.0">org.apache.dubbo.remoting.transport.AbstractChannelHandlerDelegate</node>
+    <node x="3358.5" y="450.0">org.apache.dubbo.remoting.exchange.support.Replier</node>
+    <node x="70.625" y="297.0">org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeChannel</node>
+    <node x="2407.5" y="529.0">org.apache.dubbo.remoting.exchange.support.header.HeartbeatTimerTask</node>
+    <node x="2242.5" y="529.0">org.apache.dubbo.remoting.exchange.support.header.CloseTimerTask</node>
+    <node x="3642.8660835762876" y="89.0">org.apache.dubbo.remoting.transport.ChannelHandlerDelegate</node>
+    <node x="2046.5" y="529.0">org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask</node>
+    <node x="344.5" y="608.0">org.apache.dubbo.remoting.buffer.HeapChannelBuffer</node>
+    <node x="3863.3660835762876" y="218.0">org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler</node>
+    <node x="1384.6160835762873" y="218.0">org.apache.dubbo.remoting.exchange.ExchangeHandler</node>
+    <node x="2110.0" y="761.0">org.apache.dubbo.remoting.Decodeable</node>
+    <node x="2770.8660835762876" y="297.0">org.apache.dubbo.remoting.transport.MultiMessageHandler</node>
+    <node x="513.6160835762873" y="297.0">org.apache.dubbo.remoting.transport.ClientDelegate</node>
+    <node x="163.5" y="529.0">org.apache.dubbo.remoting.transport.codec.CodecAdapter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.remoting.exchange.ExchangeServer" target="org.apache.dubbo.remoting.RemotingServer">
+      <point x="0.0" y="-14.5" />
+      <point x="1059.1160835762873" y="277.0" />
+      <point x="1057.9583333333333" y="277.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.ChannelHandlerDispatcher" target="org.apache.dubbo.remoting.ChannelHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="2996.6160835762876" y="69.0" />
+      <point x="1691.8160835762874" y="69.0" />
+      <point x="29.200000000000003" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.message.MessageOnlyChannelHandler" target="org.apache.dubbo.remoting.transport.dispatcher.WrappedChannelHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="4158.866083576288" y="267.0" />
+      <point x="3823.1660835762873" y="267.0" />
+      <point x="80.80000000000004" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.codec.TelnetCodec" target="org.apache.dubbo.remoting.transport.AbstractCodec">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractChannel" target="org.apache.dubbo.remoting.transport.AbstractPeer">
+      <point x="37.75" y="-14.5" />
+      <point x="462.25" y="198.0" />
+      <point x="544.0637998056359" y="198.0" />
+      <point x="-32.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.buffer.DynamicChannelBuffer" target="org.apache.dubbo.remoting.buffer.AbstractChannelBuffer">
+      <point x="0.0" y="-14.5" />
+      <point x="897.0" y="583.0" />
+      <point x="721.3333333333334" y="583.0" />
+      <point x="63.33333333333334" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.codec.CodecAdapter" target="org.apache.dubbo.remoting.Codec2">
+      <point x="0.0" y="-14.5" />
+      <point x="231.5" y="504.0" />
+      <point x="176.25" y="504.0" />
+      <point x="23.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractChannel" target="org.apache.dubbo.remoting.Channel">
+      <point x="-37.75" y="-14.5" />
+      <point x="386.75" y="198.0" />
+      <point x="284.5744169096206" y="198.0" />
+      <point x="12.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.header.HeartbeatHandler" target="org.apache.dubbo.remoting.transport.AbstractChannelHandlerDelegate">
+      <point x="0.0" y="-14.5" />
+      <point x="3049.3660835762876" y="277.0" />
+      <point x="2944.8660835762876" y="277.0" />
+      <point x="84.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.command.LogTelnetHandler" target="org.apache.dubbo.remoting.telnet.support.Help">
+      <point x="39.25" y="-14.5" />
+      <point x="1937.6160835762873" y="188.0" />
+      <point x="2281.9660835762875" y="188.0" />
+      <point x="-30.4" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeServer" target="org.apache.dubbo.remoting.exchange.ExchangeServer">
+      <point x="0.0" y="-14.5" />
+      <point x="1166.8660835762873" y="351.0" />
+      <point x="1095.8660835762873" y="351.0" />
+      <point x="36.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.DecodeHandler" target="org.apache.dubbo.remoting.transport.AbstractChannelHandlerDelegate">
+      <point x="0.0" y="-14.5" />
+      <point x="2559.0608357628757" y="277.0" />
+      <point x="2776.8660835762876" y="277.0" />
+      <point x="-84.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.MultiMessageHandler" target="org.apache.dubbo.remoting.transport.AbstractChannelHandlerDelegate">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.command.StatusTelnetHandler" target="org.apache.dubbo.remoting.telnet.TelnetHandler">
+      <point x="-43.5" y="-14.5" />
+      <point x="2225.3660835762876" y="178.0" />
+      <point x="2057.2589407191444" y="178.0" />
+      <point x="19.14285714285714" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.command.ExitTelnetHandler" target="org.apache.dubbo.remoting.telnet.TelnetHandler">
+      <point x="-39.25" y="-14.5" />
+      <point x="2597.1160835762876" y="148.0" />
+      <point x="2095.5446550048587" y="148.0" />
+      <point x="57.428571428571416" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.ExchangeHandler" target="org.apache.dubbo.remoting.ChannelHandler">
+      <point x="-39.0" y="-14.5" />
+      <point x="1423.6160835762873" y="69.0" />
+      <point x="1633.4160835762873" y="69.0" />
+      <point x="-29.19999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.message.MessageOnlyDispatcher" target="org.apache.dubbo.remoting.Dispatcher">
+      <point x="0.0" y="-14.5" />
+      <point x="1733.5" y="509.0" />
+      <point x="1550.8" y="509.0" />
+      <point x="22.799999999999983" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.Client" target="org.apache.dubbo.remoting.Endpoint">
+      <point x="0.0" y="-14.5" />
+      <point x="571.0416666666665" y="178.0" />
+      <point x="479.81083576287574" y="178.0" />
+      <point x="479.81083576287574" y="69.0" />
+      <point x="509.4494169096206" y="69.0" />
+      <point x="-13.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.command.HelpTelnetHandler" target="org.apache.dubbo.remoting.telnet.TelnetHandler">
+      <point x="-40.5" y="-14.5" />
+      <point x="2416.3660835762876" y="168.0" />
+      <point x="2076.401797862002" y="168.0" />
+      <point x="38.28571428571428" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.TelnetHandlerAdapter" target="org.apache.dubbo.remoting.transport.ChannelHandlerAdapter">
+      <point x="-45.75" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.WrappedChannelHandler" target="org.apache.dubbo.remoting.transport.ChannelHandlerDelegate">
+      <point x="0.0" y="-14.5" />
+      <point x="-1.4210854715202004E-14" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractEndpoint" target="org.apache.dubbo.remoting.transport.AbstractPeer">
+      <point x="0.0" y="-14.5" />
+      <point x="816.1160835762873" y="188.0" />
+      <point x="608.0637998056359" y="188.0" />
+      <point x="32.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.ExchangeHandlerAdapter" target="org.apache.dubbo.remoting.exchange.ExchangeHandler">
+      <point x="-51.25" y="-14.5" />
+      <point x="1605.8660835762873" y="277.0" />
+      <point x="1501.6160835762873" y="277.0" />
+      <point x="39.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractChannelHandlerDelegate" target="org.apache.dubbo.remoting.transport.ChannelHandlerDelegate">
+      <point x="0.0" y="-14.5" />
+      <point x="2860.8660835762876" y="198.0" />
+      <point x="3676.032750242954" y="198.0" />
+      <point x="-66.33333333333333" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.header.HeartbeatTimerTask" target="org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask">
+      <point x="0.0" y="-14.5" />
+      <point x="2493.5" y="504.0" />
+      <point x="2369.6666666666665" y="504.0" />
+      <point x="54.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.ExchangeHandler" target="org.apache.dubbo.remoting.telnet.TelnetHandler">
+      <point x="39.0" y="-14.5" />
+      <point x="1501.6160835762873" y="158.0" />
+      <point x="1980.687512147716" y="158.0" />
+      <point x="-57.42857142857143" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.Channel" target="org.apache.dubbo.remoting.Endpoint">
+      <point x="0.0" y="-14.5" />
+      <point x="272.3244169096206" y="59.0" />
+      <point x="483.4494169096206" y="59.0" />
+      <point x="-39.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.ChannelHandlerAdapter" target="org.apache.dubbo.remoting.ChannelHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.ExchangeClient" target="org.apache.dubbo.remoting.Client">
+      <point x="35.75" y="-14.5" />
+      <point x="409.9494169096206" y="277.0" />
+      <point x="543.3749999999998" y="277.0" />
+      <point x="-27.666666666666668" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.command.ClearTelnetHandler" target="org.apache.dubbo.remoting.telnet.TelnetHandler">
+      <point x="-41.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.command.HelpTelnetHandler" target="org.apache.dubbo.remoting.telnet.support.Help">
+      <point x="40.5" y="-14.5" />
+      <point x="2497.3660835762876" y="158.0" />
+      <point x="2327.5660835762874" y="158.0" />
+      <point x="15.20000000000001" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeChannel" target="org.apache.dubbo.remoting.exchange.ExchangeChannel">
+      <point x="0.0" y="-14.5" />
+      <point x="171.625" y="277.0" />
+      <point x="210.5" y="277.0" />
+      <point x="-39.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractPeer" target="org.apache.dubbo.remoting.Endpoint">
+      <point x="-32.0" y="-14.5" />
+      <point x="544.0637998056359" y="69.0" />
+      <point x="535.4494169096206" y="69.0" />
+      <point x="13.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.buffer.DirectChannelBufferFactory" target="org.apache.dubbo.remoting.buffer.ChannelBufferFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="2969.0" y="504.0" />
+      <point x="2896.25" y="504.0" />
+      <point x="45.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.ExchangeClient" target="org.apache.dubbo.remoting.exchange.ExchangeChannel">
+      <point x="-35.75" y="-14.5" />
+      <point x="338.4494169096206" y="277.0" />
+      <point x="289.5" y="277.0" />
+      <point x="39.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.ExchangeHandlerAdapter" target="org.apache.dubbo.remoting.telnet.support.TelnetHandlerAdapter">
+      <point x="51.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.ChannelHandlerDelegate" target="org.apache.dubbo.remoting.ChannelHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="3742.3660835762876" y="59.0" />
+      <point x="1721.0160835762874" y="59.0" />
+      <point x="58.400000000000006" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeClient" target="org.apache.dubbo.remoting.exchange.ExchangeClient">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.ExchangeChannel" target="org.apache.dubbo.remoting.Channel">
+      <point x="0.0" y="-14.5" />
+      <point x="250.0" y="198.0" />
+      <point x="260.0744169096206" y="198.0" />
+      <point x="-12.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.direct.DirectDispatcher" target="org.apache.dubbo.remoting.Dispatcher">
+      <point x="0.0" y="-14.5" />
+      <point x="1926.5" y="499.0" />
+      <point x="1573.6000000000001" y="499.0" />
+      <point x="45.59999999999998" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.command.LogTelnetHandler" target="org.apache.dubbo.remoting.telnet.TelnetHandler">
+      <point x="-39.25" y="-14.5" />
+      <point x="1859.1160835762873" y="178.0" />
+      <point x="2018.9732264334302" y="178.0" />
+      <point x="-19.142857142857146" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.RemotingServer" target="org.apache.dubbo.remoting.IdleSensible">
+      <point x="-36.25" y="-14.5" />
+      <point x="1021.7083333333333" y="198.0" />
+      <point x="1025.0357142857142" y="198.0" />
+      <point x="30.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractServer" target="org.apache.dubbo.remoting.RemotingServer">
+      <point x="35.0" y="-14.5" />
+      <point x="930.6160835762873" y="277.0" />
+      <point x="1009.6249999999999" y="277.0" />
+      <point x="-48.333333333333336" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.direct.DirectChannelHandler" target="org.apache.dubbo.remoting.transport.dispatcher.WrappedChannelHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="3933.8660835762876" y="277.0" />
+      <point x="3782.766083576287" y="277.0" />
+      <point x="40.400000000000034" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.buffer.HeapChannelBuffer" target="org.apache.dubbo.remoting.buffer.AbstractChannelBuffer">
+      <point x="0.0" y="-14.5" />
+      <point x="429.0" y="583.0" />
+      <point x="594.6666666666666" y="583.0" />
+      <point x="-63.333333333333336" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.execution.ExecutionDispatcher" target="org.apache.dubbo.remoting.Dispatcher">
+      <point x="0.0" y="-14.5" />
+      <point x="-7.105427357601002E-15" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.header.HeaderExchanger" target="org.apache.dubbo.remoting.exchange.Exchanger">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.buffer.AbstractChannelBuffer" target="org.apache.dubbo.remoting.buffer.ChannelBuffer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.header.ReconnectTimerTask" target="org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask">
+      <point x="0.0" y="-14.5" />
+      <point x="2134.5" y="504.0" />
+      <point x="2260.3333333333335" y="504.0" />
+      <point x="-54.666666666666664" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.codec.ExchangeCodec" target="org.apache.dubbo.remoting.telnet.codec.TelnetCodec">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.connection.ConnectionOrderedDispatcher" target="org.apache.dubbo.remoting.Dispatcher">
+      <point x="0.0" y="-14.5" />
+      <point x="1154.0" y="499.0" />
+      <point x="1482.4" y="499.0" />
+      <point x="-45.6" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractPeer" target="org.apache.dubbo.remoting.ChannelHandler">
+      <point x="32.0" y="-14.5" />
+      <point x="608.0637998056359" y="59.0" />
+      <point x="1604.2160835762872" y="59.0" />
+      <point x="-58.4" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.ClientDelegate" target="org.apache.dubbo.remoting.Client">
+      <point x="0.0" y="-14.5" />
+      <point x="581.6160835762873" y="277.0" />
+      <point x="571.0416666666665" y="277.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.all.AllChannelHandler" target="org.apache.dubbo.remoting.transport.dispatcher.WrappedChannelHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="1.4210854715202004E-14" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.ReplierDispatcher" target="org.apache.dubbo.remoting.exchange.support.Replier">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractClient" target="org.apache.dubbo.remoting.transport.AbstractEndpoint">
+      <point x="34.0" y="-14.5" />
+      <point x="771.6160835762873" y="277.0" />
+      <point x="776.8660835762873" y="277.0" />
+      <point x="-39.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractServer" target="org.apache.dubbo.remoting.transport.AbstractEndpoint">
+      <point x="-35.0" y="-14.5" />
+      <point x="860.6160835762873" y="277.0" />
+      <point x="855.3660835762873" y="277.0" />
+      <point x="39.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractCodec" target="org.apache.dubbo.remoting.Codec2">
+      <point x="0.0" y="-14.5" />
+      <point x="73.5" y="504.0" />
+      <point x="128.75" y="504.0" />
+      <point x="-23.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.TelnetHandlerAdapter" target="org.apache.dubbo.remoting.telnet.TelnetHandler">
+      <point x="45.75" y="-14.5" />
+      <point x="1754.1160835762873" y="168.0" />
+      <point x="1999.8303692905731" y="168.0" />
+      <point x="-38.28571428571429" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.ChannelDelegate" target="org.apache.dubbo.remoting.Channel">
+      <point x="0.0" y="-14.5" />
+      <point x="75.5" y="198.0" />
+      <point x="235.5744169096206" y="198.0" />
+      <point x="-36.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.ExchangeHandlerDispatcher" target="org.apache.dubbo.remoting.exchange.ExchangeHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="-39.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.header.HeaderExchangeHandler" target="org.apache.dubbo.remoting.transport.ChannelHandlerDelegate">
+      <point x="0.0" y="-14.5" />
+      <point x="3963.3660835762876" y="198.0" />
+      <point x="3808.6994169096206" y="198.0" />
+      <point x="66.33333333333331" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.connection.ConnectionOrderedChannelHandler" target="org.apache.dubbo.remoting.transport.dispatcher.WrappedChannelHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="3281.3660835762876" y="267.0" />
+      <point x="3661.5660835762874" y="267.0" />
+      <point x="-80.8" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.all.AllDispatcher" target="org.apache.dubbo.remoting.Dispatcher">
+      <point x="0.0" y="-14.5" />
+      <point x="1356.0" y="509.0" />
+      <point x="1505.2" y="509.0" />
+      <point x="-22.800000000000004" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.RemotingServer" target="org.apache.dubbo.remoting.Endpoint">
+      <point x="36.25" y="-14.5" />
+      <point x="1094.2083333333333" y="198.0" />
+      <point x="1071.72155004859" y="198.0" />
+      <point x="1071.72155004859" y="49.0" />
+      <point x="561.4494169096206" y="49.0" />
+      <point x="39.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.Client" target="org.apache.dubbo.remoting.Channel">
+      <point x="-27.66666666666667" y="-14.5" />
+      <point x="543.3749999999998" y="188.0" />
+      <point x="309.0744169096206" y="188.0" />
+      <point x="36.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.AbstractClient" target="org.apache.dubbo.remoting.Client">
+      <point x="-34.0" y="-14.5" />
+      <point x="703.6160835762873" y="277.0" />
+      <point x="598.7083333333333" y="277.0" />
+      <point x="27.66666666666667" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.Client" target="org.apache.dubbo.remoting.IdleSensible">
+      <point x="27.666666666666668" y="-14.5" />
+      <point x="598.7083333333333" y="198.0" />
+      <point x="965.0357142857142" y="198.0" />
+      <point x="-30.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.header.CloseTimerTask" target="org.apache.dubbo.remoting.exchange.support.header.AbstractTimerTask">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.buffer.ByteBufferBackedChannelBuffer" target="org.apache.dubbo.remoting.buffer.AbstractChannelBuffer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.command.ExitTelnetHandler" target="org.apache.dubbo.remoting.telnet.support.Help">
+      <point x="39.25" y="-14.5" />
+      <point x="2675.6160835762876" y="138.0" />
+      <point x="2342.766083576287" y="138.0" />
+      <point x="30.400000000000006" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.exchange.support.ExchangeServerDelegate" target="org.apache.dubbo.remoting.exchange.ExchangeServer">
+      <point x="0.0" y="-14.5" />
+      <point x="951.3660835762873" y="351.0" />
+      <point x="1022.3660835762873" y="351.0" />
+      <point x="-36.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.command.ClearTelnetHandler" target="org.apache.dubbo.remoting.telnet.support.Help">
+      <point x="41.25" y="-14.5" />
+      <point x="2120.6160835762876" y="198.0" />
+      <point x="2297.1660835762873" y="198.0" />
+      <point x="-15.199999999999996" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.telnet.support.command.StatusTelnetHandler" target="org.apache.dubbo.remoting.telnet.support.Help">
+      <point x="43.5" y="-14.5" />
+      <point x="7.105427357601002E-15" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.dispatcher.execution.ExecutionChannelHandler" target="org.apache.dubbo.remoting.transport.dispatcher.WrappedChannelHandler">
+      <point x="0.0" y="-14.5" />
+      <point x="3538.3660835762876" y="277.0" />
+      <point x="3701.966083576287" y="277.0" />
+      <point x="-40.39999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.buffer.HeapChannelBufferFactory" target="org.apache.dubbo.remoting.buffer.ChannelBufferFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="2732.0" y="504.0" />
+      <point x="2804.75" y="504.0" />
+      <point x="-45.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.transport.ServerDelegate" target="org.apache.dubbo.remoting.RemotingServer">
+      <point x="0.0" y="-14.5" />
+      <point x="1222.6160835762873" y="277.0" />
+      <point x="1106.2916666666665" y="277.0" />
+      <point x="48.33333333333334" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="52.0" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

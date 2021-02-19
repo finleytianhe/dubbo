@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.rpc.protocol.rest.BaseRestProtocolServer</OriginalElement>
+  <nodes>
+    <node x="305.0" y="232.0">org.apache.dubbo.rpc.protocol.rest.RestConstraintViolation</node>
+    <node x="0.0" y="311.0">org.apache.dubbo.rpc.protocol.rest.integration.swagger.DubboSwaggerApiListingResource</node>
+    <node x="0.0" y="533.0">org.apache.dubbo.rpc.protocol.rest.support.LoggingFilter</node>
+    <node x="129.0" y="0.0">org.apache.dubbo.rpc.protocol.rest.RestProtocolServer</node>
+    <node x="0.0" y="385.0">org.apache.dubbo.rpc.protocol.rest.DubboResourceFactory</node>
+    <node x="0.0" y="158.0">org.apache.dubbo.rpc.protocol.rest.NettyRestProtocolServer</node>
+    <node x="345.0" y="533.0">org.apache.dubbo.rpc.protocol.rest.Constants</node>
+    <node x="173.0" y="533.0">org.apache.dubbo.rpc.protocol.rest.RestProtocol</node>
+    <node x="114.0" y="79.0">org.apache.dubbo.rpc.protocol.rest.BaseRestProtocolServer</node>
+    <node x="220.0" y="158.0">org.apache.dubbo.rpc.protocol.rest.DubboHttpProtocolServer</node>
+    <node x="383.0" y="459.0">org.apache.dubbo.rpc.protocol.rest.support.ContentType</node>
+    <node x="195.0" y="459.0">org.apache.dubbo.rpc.protocol.rest.ViolationReport</node>
+    <node x="37.0" y="232.0">org.apache.dubbo.rpc.protocol.rest.integration.swagger.DubboSwaggerService</node>
+    <node x="0.0" y="459.0">org.apache.dubbo.rpc.protocol.rest.RpcContextFilter</node>
+    <node x="460.0" y="385.0">org.apache.dubbo.rpc.protocol.rest.RestServerFactory</node>
+    <node x="237.0" y="385.0">org.apache.dubbo.rpc.protocol.rest.RpcExceptionMapper</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.rpc.protocol.rest.BaseRestProtocolServer" target="org.apache.dubbo.rpc.protocol.rest.RestProtocolServer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.rpc.protocol.rest.integration.swagger.DubboSwaggerApiListingResource" target="org.apache.dubbo.rpc.protocol.rest.integration.swagger.DubboSwaggerService">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.rpc.protocol.rest.NettyRestProtocolServer" target="org.apache.dubbo.rpc.protocol.rest.BaseRestProtocolServer">
+      <point x="0.0" y="-14.5" />
+      <point x="100.0" y="133.0" />
+      <point x="163.0" y="133.0" />
+      <point x="-49.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.rpc.protocol.rest.DubboHttpProtocolServer" target="org.apache.dubbo.rpc.protocol.rest.BaseRestProtocolServer">
+      <point x="0.0" y="-14.5" />
+      <point x="324.0" y="133.0" />
+      <point x="261.0" y="133.0" />
+      <point x="49.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="98.0" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

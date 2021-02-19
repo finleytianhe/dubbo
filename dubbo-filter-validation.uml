@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.validation.MethodValidated</OriginalElement>
+  <nodes>
+    <node x="197.0" y="232.0">org.apache.dubbo.validation.filter.ValidationFilter</node>
+    <node x="0.0" y="232.0">org.apache.dubbo.validation.MethodValidated</node>
+    <node x="207.0" y="79.0">org.apache.dubbo.validation.support.jvalidation.JValidator</node>
+    <node x="210.5" y="0.0">org.apache.dubbo.validation.Validator</node>
+    <node x="23.0" y="158.0">org.apache.dubbo.validation.support.jvalidation.JValidation</node>
+    <node x="0.0" y="79.0">org.apache.dubbo.validation.support.AbstractValidation</node>
+    <node x="26.5" y="0.0">org.apache.dubbo.validation.Validation</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.validation.support.jvalidation.JValidation" target="org.apache.dubbo.validation.support.AbstractValidation">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.validation.support.jvalidation.JValidator" target="org.apache.dubbo.validation.Validator">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.validation.support.AbstractValidation" target="org.apache.dubbo.validation.Validation">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="103.0" y="172.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

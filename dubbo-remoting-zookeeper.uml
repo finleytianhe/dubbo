@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.remoting.zookeeper.ChildListener</OriginalElement>
+  <nodes>
+    <node x="343.0" y="464.0">org.apache.dubbo.remoting.zookeeper.EventType</node>
+    <node x="0.0" y="79.0">org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter</node>
+    <node x="173.0" y="464.0">org.apache.dubbo.remoting.zookeeper.DataListener</node>
+    <node x="26.5" y="232.0">org.apache.dubbo.remoting.zookeeper.ZookeeperClient</node>
+    <node x="3.0" y="158.0">org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperTransporter</node>
+    <node x="26.5" y="0.0">org.apache.dubbo.remoting.zookeeper.ZookeeperTransporter</node>
+    <node x="0.0" y="464.0">org.apache.dubbo.remoting.zookeeper.ChildListener</node>
+    <node x="3.0" y="390.0">org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient</node>
+    <node x="247.0" y="232.0">org.apache.dubbo.remoting.zookeeper.StateListener</node>
+    <node x="0.0" y="311.0">org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperClient</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperClient" target="org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperClient">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter" target="org.apache.dubbo.remoting.zookeeper.ZookeeperTransporter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperClient" target="org.apache.dubbo.remoting.zookeeper.ZookeeperClient">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.remoting.zookeeper.curator.CuratorZookeeperTransporter" target="org.apache.dubbo.remoting.zookeeper.support.AbstractZookeeperTransporter">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="64.0" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.registry.AddressListener</OriginalElement>
+  <nodes>
+    <node x="693.0" y="1387.0">org.apache.dubbo.registry.integration.InterfaceCompatibleRegistryProtocol</node>
+    <node x="268.0" y="622.0">org.apache.dubbo.registry.client.event.ServiceDiscoveryDestroyingEvent</node>
+    <node x="1071.0" y="1234.0">org.apache.dubbo.registry.client.metadata.StandardMetadataServiceURLBuilder</node>
+    <node x="264.0" y="775.0">org.apache.dubbo.registry.client.event.ServiceInstancePreUnregisteredEvent</node>
+    <node x="812.0" y="622.0">org.apache.dubbo.registry.client.event.ServiceDiscoveryInitializingEvent</node>
+    <node x="448.0" y="1688.0">org.apache.dubbo.registry.AddressListener</node>
+    <node x="563.0" y="775.0">org.apache.dubbo.registry.client.event.ServiceInstancePreRegisteredEvent</node>
+    <node x="758.0" y="1234.0">org.apache.dubbo.registry.client.metadata.SpringCloudMetadataServiceURLBuilder</node>
+    <node x="297.5" y="1155.0">org.apache.dubbo.registry.client.ServiceDiscovery</node>
+    <node x="2.0" y="237.0">org.apache.dubbo.registry.support.FailbackRegistry</node>
+    <node x="538.0" y="1461.0">org.apache.dubbo.registry.client.event.listener.ServiceInstancesChangedListener</node>
+    <node x="496.0" y="1234.0">org.apache.dubbo.registry.client.FileSystemServiceDiscovery</node>
+    <node x="847.0" y="775.0">org.apache.dubbo.registry.client.event.ServiceInstanceUnregisteredEvent</node>
+    <node x="638.0" y="158.0">org.apache.dubbo.registry.client.ServiceDiscoveryRegistryFactory</node>
+    <node x="346.0" y="1002.0">org.apache.dubbo.registry.client.ServiceInstanceCustomizer</node>
+    <node x="830.0" y="1614.0">org.apache.dubbo.registry.client.metadata.store.RemoteMetadataServiceImpl</node>
+    <node x="641.0" y="1688.0">org.apache.dubbo.registry.client.metadata.MetadataUtils</node>
+    <node x="280.0" y="1081.0">org.apache.dubbo.registry.client.metadata.MetadataServiceURLParamsMetadataCustomizer</node>
+    <node x="573.5" y="543.0">org.apache.dubbo.registry.client.event.ServiceDiscoveryEvent</node>
+    <node x="1080.0" y="622.0">org.apache.dubbo.registry.client.event.ServiceDiscoveryInitializedEvent</node>
+    <node x="271.0" y="1234.0">org.apache.dubbo.registry.client.AbstractServiceDiscovery</node>
+    <node x="4.5" y="469.0">org.apache.dubbo.registry.client.DefaultServiceDiscoveryFactory</node>
+    <node x="233.0" y="1461.0">org.apache.dubbo.registry.client.metadata.store.InMemoryWritableMetadataService</node>
+    <node x="542.0" y="622.0">org.apache.dubbo.registry.client.event.ServiceDiscoveryDestroyedEvent</node>
+    <node x="819.0" y="1688.0">org.apache.dubbo.registry.Constants</node>
+    <node x="562.0" y="928.0">org.apache.dubbo.registry.retry.FailedUnsubscribedTask</node>
+    <node x="663.5" y="79.0">org.apache.dubbo.registry.support.AbstractRegistryFactory</node>
+    <node x="1300.0" y="1387.0">org.apache.dubbo.registry.client.DefaultRegistryClusterIdentifier</node>
+    <node x="0.0" y="1540.0">org.apache.dubbo.registry.client.DefaultServiceInstance</node>
+    <node x="348.0" y="1387.0">org.apache.dubbo.registry.client.metadata.RestProtocolSubscribedURLsSynthesizer</node>
+    <node x="52.0" y="1308.0">org.apache.dubbo.registry.integration.RegistryProtocolListener</node>
+    <node x="223.0" y="79.0">org.apache.dubbo.registry.Registry</node>
+    <node x="350.0" y="928.0">org.apache.dubbo.registry.retry.FailedUnregisteredTask</node>
+    <node x="1296.5" y="158.0">org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory</node>
+    <node x="1036.0" y="1308.0">org.apache.dubbo.registry.client.selector.ServiceInstanceSelector</node>
+    <node x="197.0" y="928.0">org.apache.dubbo.registry.retry.ReExportTask</node>
+    <node x="227.0" y="1688.0">org.apache.dubbo.registry.client.InstanceAddressURL</node>
+    <node x="365.0" y="849.0">org.apache.dubbo.registry.retry.AbstractRetryTask</node>
+    <node x="1232.0" y="0.0">org.apache.dubbo.registry.NotifyListener</node>
+    <node x="393.0" y="158.0">org.apache.dubbo.registry.ListenerRegistryWrapper</node>
+    <node x="1095.0" y="1614.0">org.apache.dubbo.registry.RegistryServiceListener</node>
+    <node x="459.75" y="696.0">org.apache.dubbo.registry.client.event.ServiceInstanceEvent</node>
+    <node x="1221.5" y="79.0">org.apache.dubbo.registry.integration.DynamicDirectory</node>
+    <node x="880.5" y="79.0">org.apache.dubbo.registry.RegistryFactoryWrapper</node>
+    <node x="838.0" y="1461.0">org.apache.dubbo.registry.client.event.ServiceInstancesChangedEvent</node>
+    <node x="0.0" y="1234.0">org.apache.dubbo.registry.client.EventPublishingServiceDiscovery</node>
+    <node x="1331.0" y="1614.0">org.apache.dubbo.registry.status.RegistryStatusChecker</node>
+    <node x="171.0" y="158.0">org.apache.dubbo.registry.client.ServiceDiscoveryRegistry</node>
+    <node x="0.0" y="1688.0">org.apache.dubbo.registry.client.event.listener.LoggingEventListener</node>
+    <node x="0.0" y="622.0">org.apache.dubbo.registry.client.event.ServiceDiscoveryExceptionEvent</node>
+    <node x="201.0" y="0.0">org.apache.dubbo.registry.RegistryService</node>
+    <node x="754.5" y="1308.0">org.apache.dubbo.registry.client.RegistryProtocol</node>
+    <node x="1122.5" y="158.0">org.apache.dubbo.registry.integration.RegistryDirectory</node>
+    <node x="22.0" y="1461.0">org.apache.dubbo.registry.client.ServiceInstance</node>
+    <node x="780.0" y="928.0">org.apache.dubbo.registry.retry.FailedSubscribedTask</node>
+    <node x="0.0" y="1387.0">org.apache.dubbo.registry.client.ServiceDiscoveryRegistryProtocolListener</node>
+    <node x="0.0" y="928.0">org.apache.dubbo.registry.retry.FailedRegisteredTask</node>
+    <node x="1322.0" y="1308.0">org.apache.dubbo.registry.client.RegistryClusterIdentifier</node>
+    <node x="0.0" y="775.0">org.apache.dubbo.registry.client.event.ServiceInstanceRegisteredEvent</node>
+    <node x="387.5" y="1308.0">org.apache.dubbo.registry.client.metadata.SubscribedURLsSynthesizer</node>
+    <node x="1011.0" y="1387.0">org.apache.dubbo.registry.client.selector.RandomServiceInstanceSelector</node>
+    <node x="1124.0" y="1461.0">org.apache.dubbo.registry.support.SkipFailbackWrapperException</node>
+    <node x="646.0" y="1081.0">org.apache.dubbo.registry.client.metadata.ServiceInstanceMetadataCustomizer</node>
+    <node x="282.0" y="1614.0">org.apache.dubbo.registry.integration.AbstractConfiguratorListener</node>
+    <node x="556.0" y="1614.0">org.apache.dubbo.registry.client.metadata.ServiceInstanceMetadataUtils</node>
+    <node x="0.0" y="1081.0">org.apache.dubbo.registry.client.metadata.ProtocolPortsMetadataCustomizer</node>
+    <node x="798.5" y="0.0">org.apache.dubbo.registry.RegistryFactory</node>
+    <node x="0.0" y="158.0">org.apache.dubbo.registry.support.AbstractRegistry</node>
+    <node x="0.0" y="1614.0">org.apache.dubbo.registry.client.metadata.MetadataServiceNameMapping</node>
+    <node x="947.5" y="1155.0">org.apache.dubbo.registry.client.metadata.MetadataServiceURLBuilder</node>
+    <node x="0.0" y="390.0">org.apache.dubbo.registry.client.AbstractServiceDiscoveryFactory</node>
+    <node x="26.5" y="311.0">org.apache.dubbo.registry.client.ServiceDiscoveryFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.registry.client.metadata.ServiceInstanceMetadataCustomizer" target="org.apache.dubbo.registry.client.ServiceInstanceCustomizer">
+      <point x="0.0" y="-14.5" />
+      <point x="781.5" y="1056.0" />
+      <point x="524.3333333333333" y="1056.0" />
+      <point x="71.33333333333331" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory" target="org.apache.dubbo.registry.NotifyListener">
+      <point x="64.5" y="-14.5" />
+      <point x="1490.0" y="133.0" />
+      <point x="1445.9166666666667" y="133.0" />
+      <point x="1445.9166666666667" y="54.0" />
+      <point x="1344.5" y="54.0" />
+      <point x="45.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.support.FailbackRegistry" target="org.apache.dubbo.registry.support.AbstractRegistry">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.integration.RegistryDirectory" target="org.apache.dubbo.registry.NotifyListener">
+      <point x="-38.5" y="-14.5" />
+      <point x="1161.0" y="133.0" />
+      <point x="1172.0833333333335" y="133.0" />
+      <point x="1172.0833333333335" y="54.0" />
+      <point x="1254.5" y="54.0" />
+      <point x="-45.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.retry.ReExportTask" target="org.apache.dubbo.registry.retry.AbstractRetryTask">
+      <point x="0.0" y="-14.5" />
+      <point x="263.5" y="908.0" />
+      <point x="413.6" y="908.0" />
+      <point x="-32.39999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.integration.DynamicDirectory" target="org.apache.dubbo.registry.NotifyListener">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.DefaultRegistryClusterIdentifier" target="org.apache.dubbo.registry.client.RegistryClusterIdentifier">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.DefaultServiceInstance" target="org.apache.dubbo.registry.client.ServiceInstance">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.support.AbstractRegistryFactory" target="org.apache.dubbo.registry.RegistryFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="762.0" y="54.0" />
+      <point x="834.5" y="54.0" />
+      <point x="-36.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.event.ServiceDiscoveryDestroyedEvent" target="org.apache.dubbo.registry.client.event.ServiceDiscoveryEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="1.4210854715202004E-14" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.retry.FailedRegisteredTask" target="org.apache.dubbo.registry.retry.AbstractRetryTask">
+      <point x="0.0" y="-14.5" />
+      <point x="88.5" y="898.0" />
+      <point x="381.2" y="898.0" />
+      <point x="-64.8" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.metadata.SpringCloudMetadataServiceURLBuilder" target="org.apache.dubbo.registry.client.metadata.MetadataServiceURLBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="904.5" y="1209.0" />
+      <point x="1001.75" y="1209.0" />
+      <point x="-54.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.ServiceDiscoveryRegistry" target="org.apache.dubbo.registry.Registry">
+      <point x="0.0" y="-14.5" />
+      <point x="-7.105427357601002E-15" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.RegistryFactoryWrapper" target="org.apache.dubbo.registry.RegistryFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="979.0" y="54.0" />
+      <point x="906.5" y="54.0" />
+      <point x="36.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.Registry" target="org.apache.dubbo.registry.RegistryService">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.integration.InterfaceCompatibleRegistryProtocol" target="org.apache.dubbo.registry.client.RegistryProtocol">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.ServiceDiscoveryRegistryProtocolListener" target="org.apache.dubbo.registry.integration.RegistryProtocolListener">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.metadata.RestProtocolSubscribedURLsSynthesizer" target="org.apache.dubbo.registry.client.metadata.SubscribedURLsSynthesizer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.event.ServiceInstanceRegisteredEvent" target="org.apache.dubbo.registry.client.event.ServiceInstanceEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="122.0" y="745.0" />
+      <point x="482.125" y="745.0" />
+      <point x="-67.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.event.ServiceDiscoveryInitializingEvent" target="org.apache.dubbo.registry.client.event.ServiceDiscoveryEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="936.0" y="602.0" />
+      <point x="704.4000000000001" y="602.0" />
+      <point x="37.400000000000034" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.ServiceDiscoveryRegistryFactory" target="org.apache.dubbo.registry.support.AbstractRegistryFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.event.ServiceInstancePreUnregisteredEvent" target="org.apache.dubbo.registry.client.event.ServiceInstanceEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="403.5" y="755.0" />
+      <point x="526.875" y="755.0" />
+      <point x="-22.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.ServiceDiscoveryRegistryDirectory" target="org.apache.dubbo.registry.integration.DynamicDirectory">
+      <point x="-64.5" y="-14.5" />
+      <point x="1361.0" y="133.0" />
+      <point x="1338.5" y="133.0" />
+      <point x="39.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.event.ServiceInstanceUnregisteredEvent" target="org.apache.dubbo.registry.client.event.ServiceInstanceEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="976.5" y="745.0" />
+      <point x="616.375" y="745.0" />
+      <point x="67.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.metadata.MetadataServiceURLParamsMetadataCustomizer" target="org.apache.dubbo.registry.client.ServiceInstanceCustomizer">
+      <point x="0.0" y="-14.5" />
+      <point x="-1.4210854715202004E-14" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.metadata.StandardMetadataServiceURLBuilder" target="org.apache.dubbo.registry.client.metadata.MetadataServiceURLBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="1207.5" y="1209.0" />
+      <point x="1110.25" y="1209.0" />
+      <point x="54.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.AbstractServiceDiscovery" target="org.apache.dubbo.registry.client.ServiceDiscovery">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.event.ServiceDiscoveryDestroyingEvent" target="org.apache.dubbo.registry.client.event.ServiceDiscoveryEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="395.0" y="602.0" />
+      <point x="629.6" y="602.0" />
+      <point x="-37.39999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.retry.FailedUnsubscribedTask" target="org.apache.dubbo.registry.retry.AbstractRetryTask">
+      <point x="0.0" y="-14.5" />
+      <point x="661.0" y="908.0" />
+      <point x="478.40000000000003" y="908.0" />
+      <point x="32.40000000000002" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.ListenerRegistryWrapper" target="org.apache.dubbo.registry.Registry">
+      <point x="0.0" y="-14.5" />
+      <point x="493.0" y="133.0" />
+      <point x="304.66666666666663" y="133.0" />
+      <point x="32.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.retry.FailedSubscribedTask" target="org.apache.dubbo.registry.retry.AbstractRetryTask">
+      <point x="0.0" y="-14.5" />
+      <point x="870.5" y="898.0" />
+      <point x="510.8" y="898.0" />
+      <point x="64.80000000000001" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.event.ServiceDiscoveryExceptionEvent" target="org.apache.dubbo.registry.client.event.ServiceDiscoveryEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="124.0" y="592.0" />
+      <point x="592.2" y="592.0" />
+      <point x="-74.8" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.FileSystemServiceDiscovery" target="org.apache.dubbo.registry.client.ServiceDiscovery">
+      <point x="0.0" y="-14.5" />
+      <point x="604.5" y="1209.0" />
+      <point x="424.16666666666663" y="1209.0" />
+      <point x="50.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.event.ServiceInstancePreRegisteredEvent" target="org.apache.dubbo.registry.client.event.ServiceInstanceEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="695.0" y="755.0" />
+      <point x="571.625" y="755.0" />
+      <point x="22.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.metadata.ProtocolPortsMetadataCustomizer" target="org.apache.dubbo.registry.client.ServiceInstanceCustomizer">
+      <point x="0.0" y="-14.5" />
+      <point x="130.0" y="1056.0" />
+      <point x="381.6666666666667" y="1056.0" />
+      <point x="-71.33333333333333" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.AbstractServiceDiscoveryFactory" target="org.apache.dubbo.registry.client.ServiceDiscoveryFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.integration.RegistryDirectory" target="org.apache.dubbo.registry.integration.DynamicDirectory">
+      <point x="38.5" y="-14.5" />
+      <point x="1238.0" y="133.0" />
+      <point x="1260.5" y="133.0" />
+      <point x="-39.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.DefaultServiceDiscoveryFactory" target="org.apache.dubbo.registry.client.AbstractServiceDiscoveryFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.event.ServiceDiscoveryInitializedEvent" target="org.apache.dubbo.registry.client.event.ServiceDiscoveryEvent">
+      <point x="0.0" y="-14.5" />
+      <point x="1202.0" y="592.0" />
+      <point x="741.8000000000001" y="592.0" />
+      <point x="74.80000000000004" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.EventPublishingServiceDiscovery" target="org.apache.dubbo.registry.client.ServiceDiscovery">
+      <point x="0.0" y="-14.5" />
+      <point x="125.5" y="1209.0" />
+      <point x="322.8333333333333" y="1209.0" />
+      <point x="-50.666666666666664" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.client.selector.RandomServiceInstanceSelector" target="org.apache.dubbo.registry.client.selector.ServiceInstanceSelector">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.retry.FailedUnregisteredTask" target="org.apache.dubbo.registry.retry.AbstractRetryTask">
+      <point x="0.0" y="-14.5" />
+      <point x="1.4210854715202004E-14" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.registry.support.AbstractRegistry" target="org.apache.dubbo.registry.Registry">
+      <point x="0.0" y="-14.5" />
+      <point x="75.5" y="133.0" />
+      <point x="239.33333333333334" y="133.0" />
+      <point x="-32.666666666666664" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="74.0" y="54.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

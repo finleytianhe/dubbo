@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.registry.multicast.MulticastRegistry</OriginalElement>
+  <nodes>
+    <node x="0.0" y="148.0">org.apache.dubbo.registry.multicast.MulticastRegistryFactory</node>
+    <node x="0.0" y="74.0">org.apache.dubbo.registry.multicast.MulticastServiceDiscovery</node>
+    <node x="0.0" y="0.0">org.apache.dubbo.registry.multicast.MulticastServiceDiscoveryFactory</node>
+    <node x="0.0" y="222.0">org.apache.dubbo.registry.multicast.MulticastRegistry</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="121.5" y="172.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.config.spring.ConfigCenterBean</OriginalElement>
+  <nodes>
+    <node x="0.0" y="533.0">org.apache.dubbo.config.spring.context.DubboBootstrapApplicationListener</node>
+    <node x="344.0" y="459.0">org.apache.dubbo.config.spring.context.annotation.DubboClassPathBeanDefinitionScanner</node>
+    <node x="260.0" y="755.0">org.apache.dubbo.config.spring.context.event.ServiceBeanExportedEvent</node>
+    <node x="193.0" y="903.0">org.apache.dubbo.config.spring.ReferenceBean</node>
+    <node x="539.0" y="681.0">org.apache.dubbo.config.spring.context.annotation.DubboConfigConfiguration</node>
+    <node x="327.0" y="232.0">org.apache.dubbo.config.spring.beans.factory.config.DubboConfigDefaultPropertyValueBeanPostProcessor</node>
+    <node x="0.0" y="385.0">org.apache.dubbo.config.spring.context.DubboLifecycleComponentApplicationListener</node>
+    <node x="0.0" y="829.0">org.apache.dubbo.config.spring.extension.SpringExtensionFactory</node>
+    <node x="294.0" y="607.0">org.apache.dubbo.config.spring.schema.AnnotationBeanDefinitionParser</node>
+    <node x="0.0" y="79.0">org.apache.dubbo.config.spring.context.properties.AbstractDubboConfigBinder</node>
+    <node x="585.0" y="607.0">org.apache.dubbo.config.spring.context.annotation.DubboComponentScanRegistrar</node>
+    <node x="0.0" y="232.0">org.apache.dubbo.config.spring.beans.factory.annotation.AnnotatedInterfaceConfigBeanBuilder</node>
+    <node x="679.0" y="459.0">org.apache.dubbo.config.spring.context.annotation.DubboConfigConfigurationRegistrar</node>
+    <node x="744.5" y="79.0">org.apache.dubbo.config.spring.schema.DubboNamespaceHandler</node>
+    <node x="268.0" y="0.0">org.apache.dubbo.config.spring.context.annotation.EnableDubboConfig</node>
+    <node x="471.0" y="829.0">org.apache.dubbo.config.spring.status.SpringStatusChecker</node>
+    <node x="389.0" y="79.0">org.apache.dubbo.config.spring.context.annotation.EnableDubbo</node>
+    <node x="0.0" y="459.0">org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor</node>
+    <node x="26.5" y="0.0">org.apache.dubbo.config.spring.context.properties.DubboConfigBinder</node>
+    <node x="621.0" y="533.0">org.apache.dubbo.config.spring.beans.factory.annotation.AnnotationPropertyValuesAdapter</node>
+    <node x="276.0" y="681.0">org.apache.dubbo.config.spring.schema.DubboBeanDefinitionParser</node>
+    <node x="0.0" y="607.0">org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigAliasPostProcessor</node>
+    <node x="695.0" y="0.0">org.apache.dubbo.config.spring.beans.factory.config.ConfigurableSourceBeanMetadataElement</node>
+    <node x="773.0" y="755.0">org.apache.dubbo.config.spring.beans.factory.annotation.ServiceBeanNameBuilder</node>
+    <node x="377.0" y="385.0">org.apache.dubbo.config.spring.beans.factory.config.DubboConfigEarlyInitializationPostProcessor</node>
+    <node x="694.0" y="829.0">org.apache.dubbo.config.spring.ConfigCenterBean</node>
+    <node x="0.0" y="755.0">org.apache.dubbo.config.spring.beans.factory.annotation.ServiceClassPostProcessor</node>
+    <node x="314.0" y="533.0">org.apache.dubbo.config.spring.context.DubboApplicationListenerRegistrar</node>
+    <node x="378.0" y="903.0">org.apache.dubbo.config.spring.ServiceBean</node>
+    <node x="0.0" y="903.0">org.apache.dubbo.config.spring.util.DubboBeanUtils</node>
+    <node x="0.0" y="681.0">org.apache.dubbo.config.spring.context.config.DubboConfigBeanCustomizer</node>
+    <node x="519.0" y="755.0">org.apache.dubbo.config.spring.status.DataSourceStatusChecker</node>
+    <node x="49.5" y="311.0">org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceBeanBuilder</node>
+    <node x="240.0" y="829.0">org.apache.dubbo.config.spring.util.DubboAnnotationUtils</node>
+    <node x="4.5" y="158.0">org.apache.dubbo.config.spring.context.properties.DefaultDubboConfigBinder</node>
+    <node x="459.0" y="0.0">org.apache.dubbo.config.spring.context.annotation.DubboComponentScan</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.config.spring.context.properties.DefaultDubboConfigBinder" target="org.apache.dubbo.config.spring.context.properties.AbstractDubboConfigBinder">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.spring.context.properties.AbstractDubboConfigBinder" target="org.apache.dubbo.config.spring.context.properties.DubboConfigBinder">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceBeanBuilder" target="org.apache.dubbo.config.spring.beans.factory.annotation.AnnotatedInterfaceConfigBeanBuilder">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.spring.context.annotation.EnableDubbo" target="org.apache.dubbo.config.spring.context.annotation.EnableDubboConfig">
+      <point x="-32.5" y="-14.5" />
+      <point x="421.5" y="54.0" />
+      <point x="353.5" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.spring.schema.DubboNamespaceHandler" target="org.apache.dubbo.config.spring.beans.factory.config.ConfigurableSourceBeanMetadataElement">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.spring.context.annotation.EnableDubbo" target="org.apache.dubbo.config.spring.context.annotation.DubboComponentScan">
+      <point x="32.5" y="-14.5" />
+      <point x="486.5" y="54.0" />
+      <point x="554.5" y="54.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="372.5" y="133.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

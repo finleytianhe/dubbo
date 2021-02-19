@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.remoting.transport.netty4.NettyBackedChannelBuffer</OriginalElement>
+  <nodes>
+    <node x="333.0" y="370.0">org.apache.dubbo.remoting.transport.netty4.NettyClient</node>
+    <node x="0.0" y="74.0">org.apache.dubbo.remoting.transport.netty4.NettyCodecAdapter</node>
+    <node x="0.0" y="222.0">org.apache.dubbo.remoting.transport.netty4.logging.MessageFormatter</node>
+    <node x="0.0" y="296.0">org.apache.dubbo.remoting.transport.netty4.logging.FormattingTuple</node>
+    <node x="261.0" y="0.0">org.apache.dubbo.remoting.transport.netty4.NettyEventLoopFactory</node>
+    <node x="0.0" y="148.0">org.apache.dubbo.remoting.transport.netty4.SslHandlerInitializer</node>
+    <node x="207.0" y="222.0">org.apache.dubbo.remoting.transport.netty4.NettyTransporter</node>
+    <node x="0.0" y="370.0">org.apache.dubbo.remoting.transport.netty4.SslContexts</node>
+    <node x="213.0" y="148.0">org.apache.dubbo.remoting.transport.netty4.NettyClientHandler</node>
+    <node x="167.0" y="370.0">org.apache.dubbo.remoting.transport.netty4.NettyServer</node>
+    <node x="0.0" y="0.0">org.apache.dubbo.remoting.transport.netty4.NettyBackedChannelBuffer</node>
+    <node x="215.0" y="74.0">org.apache.dubbo.remoting.transport.netty4.NettyServerHandler</node>
+    <node x="194.0" y="296.0">org.apache.dubbo.remoting.transport.netty4.NettyChannel</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="108.0" y="93.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

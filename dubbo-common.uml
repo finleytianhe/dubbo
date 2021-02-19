@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.dubbo.common.BaseServiceMetadata</OriginalElement>
+  <nodes>
+    <node x="1186.0" y="1109.0">org.apache.dubbo.common.config.configcenter.ConfigurationListener</node>
+    <node x="3193.770833333333" y="778.0">org.apache.dubbo.common.config.PropertiesConfiguration</node>
+    <node x="3784.0" y="1183.0">org.apache.dubbo.rpc.service.Destroyable</node>
+    <node x="564.75" y="407.0">org.apache.dubbo.common.compiler.support.JavassistCompiler</node>
+    <node x="752.5" y="159.0">org.apache.dubbo.common.extension.Adaptive</node>
+    <node x="4511.770833333333" y="689.0">org.apache.dubbo.common.utils.StringConstantFieldValuePredicate</node>
+    <node x="5718.0" y="1183.0">org.apache.dubbo.common.timer.TimerTask</node>
+    <node x="3301.0" y="1257.0">org.apache.dubbo.common.utils.Log</node>
+    <node x="4493.7440948472395" y="536.0">org.apache.dubbo.common.convert.multiple.StringToTransferQueueConverter</node>
+    <node x="656.9999999999999" y="798.0">org.apache.dubbo.config.AbstractMethodConfig</node>
+    <node x="3972.270833333333" y="689.0">org.apache.dubbo.common.timer.Timer</node>
+    <node x="4344.770833333333" y="768.0">org.apache.dubbo.common.utils.DefaultPage</node>
+    <node x="2308.7708333333335" y="778.0">org.apache.dubbo.common.config.InmemoryConfiguration</node>
+    <node x="2013.0" y="1257.0">org.apache.dubbo.common.utils.IOUtils</node>
+    <node x="2147.0" y="1257.0">org.apache.dubbo.common.utils.Holder</node>
+    <node x="5326.254531463748" y="159.0">org.apache.dubbo.common.lang.ShutdownHookCallback</node>
+    <node x="1876.0" y="1257.0">org.apache.dubbo.common.utils.LogUtil</node>
+    <node x="1621.625" y="288.0">org.apache.dubbo.rpc.service.GenericServiceDetector</node>
+    <node x="0.0" y="1109.0">org.apache.dubbo.common.lang.ShutdownHookCallbacks</node>
+    <node x="7221.9940948472395" y="288.0">org.apache.dubbo.event.ConditionalEventListener</node>
+    <node x="6140.729531463748" y="536.0">org.apache.dubbo.common.convert.multiple.StringToSetConverter</node>
+    <node x="2846.6250000000005" y="288.0">org.apache.dubbo.common.store.support.SimpleDataStore</node>
+    <node x="2746.0" y="1109.0">org.apache.dubbo.common.extension.support.ActivateComparator</node>
+    <node x="5010.7440948472395" y="536.0">org.apache.dubbo.common.convert.multiple.StringToBlockingQueueConverter</node>
+    <node x="1198.625" y="288.0">org.apache.dubbo.common.extension.factory.AdaptiveExtensionFactory</node>
+    <node x="4817.770833333333" y="689.0">org.apache.dubbo.common.io.UnsafeByteArrayOutputStream</node>
+    <node x="2936.6487460100275" y="407.0">org.apache.dubbo.event.EventDispatcher</node>
+    <node x="3394.0" y="1109.0">org.apache.dubbo.common.utils.ConcurrentHashSet</node>
+    <node x="99.625" y="0.0">org.apache.dubbo.common.context.Lifecycle</node>
+    <node x="958.0" y="1109.0">org.apache.dubbo.rpc.model.ProviderMethodModel</node>
+    <node x="6496.0" y="1183.0">org.apache.dubbo.common.utils.ClassUtils</node>
+    <node x="4466.0" y="1109.0">org.apache.dubbo.common.io.UnsafeStringWriter</node>
+    <node x="3609.0" y="1109.0">org.apache.dubbo.common.constants.RemotingConstants</node>
+    <node x="4347.229531463748" y="159.0">org.apache.dubbo.common.convert.Converter</node>
+    <node x="595.0" y="1257.0">org.apache.dubbo.common.bytecode.Wrapper</node>
+    <node x="4141.770833333333" y="768.0">org.apache.dubbo.common.ConfigurationURL</node>
+    <node x="664.8749999999999" y="1035.0">org.apache.dubbo.config.ConsumerConfig</node>
+    <node x="6650.0" y="1183.0">org.apache.dubbo.common.compiler.support.ClassUtils</node>
+    <node x="3457.770833333333" y="689.0">org.apache.dubbo.common.utils.NamedThreadFactory</node>
+    <node x="5521.0" y="1109.0">org.apache.dubbo.common.constants.RegistryConstants</node>
+    <node x="5247.0" y="1183.0">org.apache.dubbo.config.Constants</node>
+    <node x="1147.0" y="1183.0">org.apache.dubbo.rpc.service.GenericService</node>
+    <node x="2939.0" y="1183.0">org.apache.dubbo.common.utils.MemberUtils</node>
+    <node x="1514.0" y="1183.0">org.apache.dubbo.common.constants.QosConstants</node>
+    <node x="420.75" y="407.0">org.apache.dubbo.common.compiler.support.JdkCompiler</node>
+    <node x="1597.0" y="1257.0">org.apache.dubbo.config.annotation.Method</node>
+    <node x="4674.21909484724" y="407.0">org.apache.dubbo.common.convert.StringToCharArrayConverter</node>
+    <node x="1696.0" y="1183.0">org.apache.dubbo.common.utils.CollectionUtils</node>
+    <node x="5419.729531463748" y="536.0">org.apache.dubbo.common.convert.multiple.StringToBlockingDequeConverter</node>
+    <node x="2962.0" y="1109.0">org.apache.dubbo.common.io.UnsafeStringReader</node>
+    <node x="1722.0" y="1015.0">org.apache.dubbo.common.config.configcenter.file.FileSystemDynamicConfiguration</node>
+    <node x="2281.0" y="1257.0">org.apache.dubbo.common.status.Status</node>
+    <node x="6766.9940948472395" y="288.0">org.apache.dubbo.common.extension.DubboInternalLoadingStrategy</node>
+    <node x="321.8749999999999" y="1035.0">org.apache.dubbo.config.ProviderConfig</node>
+    <node x="5102.770833333333" y="689.0">org.apache.dubbo.common.extension.AdaptiveClassCodeGenerator</node>
+    <node x="3448.0" y="1183.0">org.apache.dubbo.rpc.service.EchoService</node>
+    <node x="6788.479531463748" y="159.0">org.apache.dubbo.event.GenericEvent</node>
+    <node x="5137.21909484724" y="407.0">org.apache.dubbo.common.convert.StringToOptionalConverter</node>
+    <node x="5085.625" y="288.0">org.apache.dubbo.common.status.support.LoadStatusChecker</node>
+    <node x="5922.770833333333" y="689.0">org.apache.dubbo.common.bytecode.CustomizedLoaderClassPath</node>
+    <node x="5764.979531463748" y="0.0">org.apache.dubbo.common.lang.Prioritized</node>
+    <node x="1931.6250000000002" y="159.0">org.apache.dubbo.rpc.model.ApplicationInitListener</node>
+    <node x="4039.0" y="1109.0">org.apache.dubbo.common.threadlocal.InternalThreadLocal</node>
+    <node x="1457.0" y="1257.0">org.apache.dubbo.common.Version</node>
+    <node x="4767.7440948472395" y="536.0">org.apache.dubbo.common.convert.multiple.StringToSortedSetConverter</node>
+    <node x="874.5" y="159.0">org.apache.dubbo.common.config.configcenter.DynamicConfigurationFactory</node>
+    <node x="6705.770833333333" y="689.0">org.apache.dubbo.common.utils.CharSequenceComparator</node>
+    <node x="1640.0" y="1109.0">org.apache.dubbo.common.config.configcenter.ConfigChangedEvent</node>
+    <node x="2492.6250000000005" y="288.0">org.apache.dubbo.common.threadpool.support.cached.CachedThreadPool</node>
+    <node x="2547.0" y="1257.0">org.apache.dubbo.common.io.Bytes</node>
+    <node x="4280.0" y="1183.0">org.apache.dubbo.common.utils.ReflectUtils</node>
+    <node x="4890.625" y="288.0">org.apache.dubbo.common.infra.support.EnvironmentAdapter</node>
+    <node x="3929.770833333333" y="768.0">org.apache.dubbo.common.timer.HashedWheelTimer</node>
+    <node x="4443.0" y="1183.0">org.apache.dubbo.common.utils.ConfigUtils</node>
+    <node x="6340.0" y="1109.0">org.apache.dubbo.rpc.model.ServiceDescriptor</node>
+    <node x="5728.0" y="1109.0">org.apache.dubbo.common.config.ConfigurationUtils</node>
+    <node x="3279.0" y="1183.0">org.apache.dubbo.common.utils.ExecutorUtil</node>
+    <node x="0.0" y="1257.0">org.apache.dubbo.common.utils.PathUtils</node>
+    <node x="487.0" y="1109.0">org.apache.dubbo.rpc.support.GroupServiceKeyCache</node>
+    <node x="3616.0" y="1183.0">org.apache.dubbo.common.utils.MethodUtils</node>
+    <node x="7022.9940948472395" y="288.0">org.apache.dubbo.event.GenericEventListener</node>
+    <node x="6619.229531463748" y="159.0">org.apache.dubbo.event.EventListener</node>
+    <node x="4449.21909484724" y="407.0">org.apache.dubbo.common.convert.StringToIntegerConverter</node>
+    <node x="2521.7708333333335" y="778.0">org.apache.dubbo.common.config.SystemConfiguration</node>
+    <node x="2803.0" y="1257.0">org.apache.dubbo.common.utils.Stack</node>
+    <node x="384.6249999999999" y="956.0">org.apache.dubbo.config.AbstractServiceConfig</node>
+    <node x="3950.0" y="1183.0">org.apache.dubbo.common.utils.ClassHelper</node>
+    <node x="1727.625" y="159.0">org.apache.dubbo.rpc.model.BuiltinServiceDetector</node>
+    <node x="10.75" y="159.0">org.apache.dubbo.common.context.LifecycleAdapter</node>
+    <node x="836.8749999999999" y="1035.0">org.apache.dubbo.config.ReferenceConfigBase</node>
+    <node x="146.0" y="288.0">org.apache.dubbo.config.context.ConfigManager</node>
+    <node x="4678.0" y="1109.0">org.apache.dubbo.common.constants.CommonConstants</node>
+    <node x="6191.770833333333" y="689.0">org.apache.dubbo.common.utils.ServiceAnnotationResolver</node>
+    <node x="5089.0" y="1183.0">org.apache.dubbo.common.utils.StringUtils</node>
+    <node x="3056.0" y="1257.0">org.apache.dubbo.common.bytecode.Mixin</node>
+    <node x="4024.2190948472394" y="407.0">org.apache.dubbo.common.convert.StringToFloatConverter</node>
+    <node x="2527.0" y="1109.0">org.apache.dubbo.common.extension.support.WrapperComparator</node>
+    <node x="4366.770833333333" y="689.0">org.apache.dubbo.common.utils.Page</node>
+    <node x="5404.0" y="1183.0">org.apache.dubbo.common.config.configcenter.Constants</node>
+    <node x="3705.770833333333" y="689.0">org.apache.dubbo.common.BaseServiceMetadata</node>
+    <node x="0.0" y="288.0">org.apache.dubbo.common.config.Environment</node>
+    <node x="4605.0" y="1183.0">org.apache.dubbo.common.threadpool.support.eager.TaskQueue</node>
+    <node x="1727.0" y="936.0">org.apache.dubbo.common.config.configcenter.TreePathDynamicConfiguration</node>
+    <node x="4470.85" y="288.0">org.apache.dubbo.common.convert.StringConverter</node>
+    <node x="2087.0" y="1109.0">org.apache.dubbo.common.function.ThrowableConsumer</node>
+    <node x="6804.0" y="1183.0">org.apache.dubbo.config.annotation.Argument</node>
+    <node x="6742.0" y="1109.0">org.apache.dubbo.rpc.model.ApplicationModel</node>
+    <node x="2866.6250000000005" y="159.0">org.apache.dubbo.common.store.DataStore</node>
+    <node x="6941.0" y="1109.0">org.apache.dubbo.common.function.ThrowableAction</node>
+    <node x="582.0" y="1183.0">org.apache.dubbo.common.utils.AnnotationUtils</node>
+    <node x="2675.0" y="1257.0">org.apache.dubbo.common.bytecode.Proxy</node>
+    <node x="887.0" y="1257.0">org.apache.dubbo.common.function.Streams</node>
+    <node x="1833.6250000000002" y="288.0">org.apache.dubbo.rpc.service.EchoServiceDetector</node>
+    <node x="7334.0" y="1109.0">org.apache.dubbo.config.ArgumentConfig</node>
+    <node x="6342.729531463748" y="536.0">org.apache.dubbo.common.convert.multiple.StringToDequeConverter</node>
+    <node x="7112.0" y="1183.0">org.apache.dubbo.common.Resetable</node>
+    <node x="6449.770833333333" y="689.0">org.apache.dubbo.common.bytecode.NoSuchPropertyException</node>
+    <node x="3799.2190948472394" y="407.0">org.apache.dubbo.common.convert.StringToDoubleConverter</node>
+    <node x="0.0" y="798.0">org.apache.dubbo.config.SslConfig</node>
+    <node x="127.0" y="798.0">org.apache.dubbo.config.ApplicationConfig</node>
+    <node x="776.4999999999999" y="877.0">org.apache.dubbo.config.MethodConfig</node>
+    <node x="6958.0" y="1183.0">org.apache.dubbo.common.utils.ArrayUtils</node>
+    <node x="2419.0" y="1183.0">org.apache.dubbo.common.URLStrParser</node>
+    <node x="1030.0" y="1257.0">org.apache.dubbo.common.utils.NetUtils</node>
+    <node x="4767.0" y="1183.0">org.apache.dubbo.common.URLBuilder</node>
+    <node x="5934.0" y="1109.0">org.apache.dubbo.rpc.model.MethodDescriptor</node>
+    <node x="5935.9940948472395" y="407.0">org.apache.dubbo.common.convert.multiple.StringToIterableConverter</node>
+    <node x="6849.729531463748" y="0.0">org.apache.dubbo.event.Event</node>
+    <node x="5693.729531463748" y="536.0">org.apache.dubbo.common.convert.multiple.StringToListConverter</node>
+    <node x="661.0" y="288.0">org.apache.dubbo.common.compiler.support.AdaptiveCompiler</node>
+    <node x="4890.0" y="1109.0">org.apache.dubbo.common.function.ThrowableFunction</node>
+    <node x="3015.6250000000005" y="288.0">org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository</node>
+    <node x="1542.9999999999998" y="798.0">org.apache.dubbo.config.MetricsConfig</node>
+    <node x="3557.2190948472394" y="407.0">org.apache.dubbo.common.convert.StringToCharacterConverter</node>
+    <node x="3109.0" y="1183.0">org.apache.dubbo.common.extension.DisableInject</node>
+    <node x="7213.770833333333" y="689.0">org.apache.dubbo.common.bytecode.NoSuchMethodException</node>
+    <node x="2767.0" y="1183.0">org.apache.dubbo.common.Experimental</node>
+    <node x="2910.1487460100275" y="536.0">org.apache.dubbo.event.AbstractEventDispatcher</node>
+    <node x="2546.25" y="689.0">org.apache.dubbo.common.config.Configuration</node>
+    <node x="6556.9940948472395" y="288.0">org.apache.dubbo.common.extension.DubboLoadingStrategy</node>
+    <node x="1331.0" y="1183.0">org.apache.dubbo.common.compiler.support.CtClassBuilder</node>
+    <node x="185.0" y="159.0">org.apache.dubbo.common.context.FrameworkExt</node>
+    <node x="4231.7440948472395" y="536.0">org.apache.dubbo.common.convert.multiple.StringToNavigableSetConverter</node>
+    <node x="3434.770833333333" y="768.0">org.apache.dubbo.common.threadlocal.NamedInternalThreadFactory</node>
+    <node x="2930.0" y="1257.0">org.apache.dubbo.common.Node</node>
+    <node x="2845.7545314637478" y="0.0">org.apache.dubbo.common.extension.SPI</node>
+    <node x="2241.0" y="1183.0">org.apache.dubbo.config.annotation.DubboService</node>
+    <node x="1173.0" y="1257.0">org.apache.dubbo.common.timer.Timeout</node>
+    <node x="2307.0" y="1109.0">org.apache.dubbo.common.utils.CompatibleTypeUtils</node>
+    <node x="560.4999999999999" y="877.0">org.apache.dubbo.config.AbstractInterfaceConfig</node>
+    <node x="1728.0" y="857.0">org.apache.dubbo.common.config.configcenter.AbstractDynamicConfiguration</node>
+    <node x="724.0" y="1109.0">org.apache.dubbo.common.threadpool.support.AbortPolicyWithReport</node>
+    <node x="1878.0" y="1183.0">org.apache.dubbo.common.threadlocal.InternalThread</node>
+    <node x="7138.0" y="1109.0">org.apache.dubbo.common.extension.ExtensionLoader</node>
+    <node x="6336.9940948472395" y="288.0">org.apache.dubbo.common.extension.ServicesLoadingStrategy</node>
+    <node x="195.0" y="1183.0">org.apache.dubbo.common.utils.DubboAppender</node>
+    <node x="1413.0" y="1109.0">org.apache.dubbo.common.utils.AtomicPositiveInteger</node>
+    <node x="7264.0" y="1183.0">org.apache.dubbo.common.utils.TypeUtils</node>
+    <node x="1737.0" y="1257.0">org.apache.dubbo.common.utils.UrlUtils</node>
+    <node x="5273.625" y="288.0">org.apache.dubbo.common.status.support.MemoryStatusChecker</node>
+    <node x="1388.9999999999998" y="798.0">org.apache.dubbo.config.ModuleConfig</node>
+    <node x="3178.0" y="1109.0">org.apache.dubbo.common.beanutil.JavaBeanDescriptor</node>
+    <node x="4928.0" y="1183.0">org.apache.dubbo.common.status.support.StatusUtils</node>
+    <node x="4236.21909484724" y="407.0">org.apache.dubbo.common.convert.StringToLongConverter</node>
+    <node x="4936.504531463748" y="159.0">org.apache.dubbo.common.extension.Activate</node>
+    <node x="1864.0" y="1109.0">org.apache.dubbo.common.beanutil.JavaBeanSerializeUtil</node>
+    <node x="6960.770833333333" y="689.0">org.apache.dubbo.common.threadpool.support.eager.EagerThreadPoolExecutor</node>
+    <node x="481.8749999999999" y="1035.0">org.apache.dubbo.config.ServiceConfigBase</node>
+    <node x="5101.0" y="1109.0">org.apache.dubbo.common.config.configcenter.ConfigChangeType</node>
+    <node x="2719.7708333333335" y="778.0">org.apache.dubbo.config.context.ConfigConfigurationAdapter</node>
+    <node x="1072.9999999999998" y="798.0">org.apache.dubbo.config.RegistryConfig</node>
+    <node x="6150.229531463748" y="159.0">org.apache.dubbo.common.extension.LoadingStrategy</node>
+    <node x="2676.6250000000005" y="288.0">org.apache.dubbo.common.threadpool.support.fixed.FixedThreadPool</node>
+    <node x="2962.770833333333" y="778.0">org.apache.dubbo.common.config.EnvironmentConfiguration</node>
+    <node x="7383.9940948472395" y="159.0">org.apache.dubbo.common.threadpool.event.ThreadPoolExhaustedEvent</node>
+    <node x="5371.21909484724" y="407.0">org.apache.dubbo.common.convert.StringToBooleanConverter</node>
+    <node x="4918.21909484724" y="407.0">org.apache.dubbo.common.convert.StringToStringConverter</node>
+    <node x="1357.5" y="159.0">org.apache.dubbo.common.extension.ExtensionFactory</node>
+    <node x="6090.9940948472395" y="288.0">org.apache.dubbo.common.convert.multiple.StringToMultiValueConverter</node>
+    <node x="389.0" y="1183.0">org.apache.dubbo.rpc.model.ConsumerModel</node>
+    <node x="5874.0" y="1183.0">org.apache.dubbo.common.utils.LogHelper</node>
+    <node x="308.0" y="288.0">org.apache.dubbo.rpc.model.ServiceRepository</node>
+    <node x="3019.3987460100275" y="615.0">org.apache.dubbo.event.ParallelEventDispatcher</node>
+    <node x="447.0" y="1257.0">org.apache.dubbo.common.utils.PojoUtils</node>
+    <node x="5897.729531463748" y="536.0">org.apache.dubbo.common.convert.multiple.StringToCollectionConverter</node>
+    <node x="4664.629531463748" y="159.0">org.apache.dubbo.common.infra.InfraAdapter</node>
+    <node x="2319.625" y="288.0">org.apache.dubbo.common.threadpool.support.eager.EagerThreadPool</node>
+    <node x="848.0" y="288.0">org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory</node>
+    <node x="2137.625" y="288.0">org.apache.dubbo.common.threadpool.support.limited.LimitedThreadPool</node>
+    <node x="4116.0" y="1183.0">org.apache.dubbo.common.io.StreamUtils</node>
+    <node x="6563.729531463748" y="536.0">org.apache.dubbo.common.convert.multiple.StringToQueueConverter</node>
+    <node x="783.2499999999999" y="689.0">org.apache.dubbo.config.AbstractConfig</node>
+    <node x="1125.5" y="159.0">org.apache.dubbo.common.config.OrderedPropertiesProvider</node>
+    <node x="2814.3987460100275" y="615.0">org.apache.dubbo.event.DirectEventDispatcher</node>
+    <node x="4184.270833333333" y="689.0">org.apache.dubbo.common.URL</node>
+    <node x="1427.625" y="288.0">org.apache.dubbo.common.extension.factory.SpiExtensionFactory</node>
+    <node x="5376.770833333333" y="689.0">org.apache.dubbo.common.threadpool.concurrent.ScheduledCompletableFuture</node>
+    <node x="3720.770833333333" y="768.0">org.apache.dubbo.rpc.model.ServiceMetadata</node>
+    <node x="486.0" y="288.0">org.apache.dubbo.common.compiler.support.AbstractCompiler</node>
+    <node x="741.0" y="1257.0">org.apache.dubbo.common.extension.Wrapper</node>
+    <node x="3341.2190948472394" y="407.0">org.apache.dubbo.common.convert.StringToShortConverter</node>
+    <node x="5168.254531463748" y="159.0">org.apache.dubbo.common.status.StatusChecker</node>
+    <node x="1316.0" y="1257.0">org.apache.dubbo.common.utils.JVMUtil</node>
+    <node x="2594.0" y="1183.0">org.apache.dubbo.rpc.support.ProtocolUtils</node>
+    <node x="6186.0" y="1183.0">org.apache.dubbo.common.utils.LFUCache</node>
+    <node x="2089.7708333333335" y="778.0">org.apache.dubbo.common.config.CompositeConfiguration</node>
+    <node x="0.0" y="1183.0">org.apache.dubbo.config.annotation.DubboReference</node>
+    <node x="732.3749999999999" y="956.0">org.apache.dubbo.config.AbstractReferenceConfig</node>
+    <node x="538.0" y="159.0">org.apache.dubbo.common.compiler.Compiler</node>
+    <node x="2414.0" y="1257.0">org.apache.dubbo.common.utils.Assert</node>
+    <node x="247.0" y="1109.0">org.apache.dubbo.common.threadlocal.InternalThreadLocalMap</node>
+    <node x="842.0" y="407.0">org.apache.dubbo.common.config.configcenter.file.FileSystemDynamicConfigurationFactory</node>
+    <node x="465.9999999999999" y="798.0">org.apache.dubbo.config.ConfigCenterConfig</node>
+    <node x="865.9999999999999" y="798.0">org.apache.dubbo.config.MetadataReportConfig</node>
+    <node x="149.0" y="1257.0">org.apache.dubbo.common.utils.FieldUtils</node>
+    <node x="5690.229531463748" y="159.0">org.apache.dubbo.common.convert.multiple.MultiValueConverter</node>
+    <node x="2060.0" y="1183.0">org.apache.dubbo.rpc.model.ProviderModel</node>
+    <node x="7415.0" y="1183.0">org.apache.dubbo.common.utils.CIDRUtils</node>
+    <node x="6541.0" y="1109.0">org.apache.dubbo.rpc.service.GenericException</node>
+    <node x="6138.0" y="1109.0">org.apache.dubbo.rpc.model.AsyncMethodInfo</node>
+    <node x="2554.9690948472394" y="159.0">org.apache.dubbo.common.threadpool.ThreadPool</node>
+    <node x="5649.770833333333" y="689.0">org.apache.dubbo.common.io.UnsafeByteArrayInputStream</node>
+    <node x="3642.5045314637478" y="288.0">org.apache.dubbo.event.Listenable</node>
+    <node x="3037.6250000000005" y="159.0">org.apache.dubbo.common.threadpool.manager.ExecutorRepository</node>
+    <node x="3181.0" y="1257.0">org.apache.dubbo.common.threadpool.manager.Ring</node>
+    <node x="1231.9999999999998" y="798.0">org.apache.dubbo.config.MonitorConfig</node>
+    <node x="4253.0" y="1109.0">org.apache.dubbo.common.utils.MethodComparator</node>
+    <node x="960.0" y="1183.0">org.apache.dubbo.common.constants.FilterConstants</node>
+    <node x="4737.625" y="288.0">org.apache.dubbo.common.infra.support.CmdbAdapter</node>
+    <node x="5312.0" y="1109.0">org.apache.dubbo.common.beanutil.JavaBeanAccessor</node>
+    <node x="772.0" y="1183.0">org.apache.dubbo.common.bytecode.ClassGenerator</node>
+    <node x="6030.0" y="1183.0">org.apache.dubbo.common.utils.LRUCache</node>
+    <node x="6162.9940948472395" y="407.0">org.apache.dubbo.common.convert.multiple.StringToArrayConverter</node>
+    <node x="6341.0" y="1183.0">org.apache.dubbo.config.support.Parameter</node>
+    <node x="298.0" y="1257.0">org.apache.dubbo.common.utils.Utf8Utils</node>
+    <node x="5561.0" y="1183.0">org.apache.dubbo.common.function.Predicates</node>
+    <node x="304.99999999999994" y="798.0">org.apache.dubbo.config.ProtocolConfig</node>
+    <node x="1986.0" y="857.0">org.apache.dubbo.common.config.configcenter.wrapper.CompositeDynamicConfiguration</node>
+    <node x="1884.7708333333333" y="778.0">org.apache.dubbo.common.config.configcenter.DynamicConfiguration</node>
+    <node x="3824.0" y="1109.0">org.apache.dubbo.common.threadpool.ThreadlessExecutor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.dubbo.config.ReferenceConfigBase" target="org.apache.dubbo.config.AbstractReferenceConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="926.8749999999999" y="1010.0" />
+      <point x="884.6249999999999" y="1010.0" />
+      <point x="50.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.SystemConfiguration" target="org.apache.dubbo.common.config.Configuration">
+      <point x="0.0" y="-14.5" />
+      <point x="2610.7708333333335" y="758.0" />
+      <point x="2612.75" y="758.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory" target="org.apache.dubbo.common.config.configcenter.DynamicConfigurationFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.threadpool.manager.ExecutorRepository" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="3122.1250000000005" y="119.0" />
+      <point x="2887.1368844049243" y="119.0" />
+      <point x="7.882352941176464" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToBlockingQueueConverter" target="org.apache.dubbo.common.convert.multiple.StringToIterableConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="5138.2440948472395" y="486.0" />
+      <point x="6008.444094847239" y="486.0" />
+      <point x="-31.05000000000001" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.ConfigurationURL" target="org.apache.dubbo.common.URL">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.MultiValueConverter" target="org.apache.dubbo.common.extension.SPI">
+      <point x="-43.25" y="-14.5" />
+      <point x="5733.479531463748" y="69.0" />
+      <point x="2906.8427667578653" y="69.0" />
+      <point x="27.588235294117624" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.MonitorConfig" target="org.apache.dubbo.config.AbstractConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="1300.4999999999998" y="758.0" />
+      <point x="889.7499999999999" y="758.0" />
+      <point x="35.500000000000014" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.status.StatusChecker" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="5237.254531463748" y="89.0" />
+      <point x="2898.9604138166887" y="89.0" />
+      <point x="19.70588235294116" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.threadpool.support.limited.LimitedThreadPool" target="org.apache.dubbo.common.threadpool.ThreadPool">
+      <point x="0.0" y="-14.5" />
+      <point x="2218.625" y="248.0" />
+      <point x="2569.7190948472394" y="248.0" />
+      <point x="-44.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.MetricsConfig" target="org.apache.dubbo.config.AbstractConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="1609.9999999999998" y="738.0" />
+      <point x="918.1499999999999" y="738.0" />
+      <point x="63.900000000000006" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.EventListener" target="org.apache.dubbo.event.Event">
+      <point x="44.0" y="-14.5" />
+      <point x="6729.229531463748" y="129.0" />
+      <point x="6860.104531463748" y="129.0" />
+      <point x="-31.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.threadpool.event.ThreadPoolExhaustedEvent" target="org.apache.dubbo.event.Event">
+      <point x="0.0" y="-14.5" />
+      <point x="7492.9940948472395" y="129.0" />
+      <point x="6922.354531463748" y="129.0" />
+      <point x="31.125" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.timer.HashedWheelTimer" target="org.apache.dubbo.common.timer.Timer">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.configcenter.DynamicConfiguration" target="org.apache.dubbo.common.config.Configuration">
+      <point x="0.0" y="-14.5" />
+      <point x="1977.2708333333333" y="738.0" />
+      <point x="2555.75" y="738.0" />
+      <point x="-57.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.rpc.service.EchoServiceDetector" target="org.apache.dubbo.rpc.model.BuiltinServiceDetector">
+      <point x="0.0" y="-14.5" />
+      <point x="1921.6250000000002" y="268.0" />
+      <point x="1865.625" y="268.0" />
+      <point x="46.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.AbstractServiceConfig" target="org.apache.dubbo.config.AbstractInterfaceConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="477.6249999999999" y="931.0" />
+      <point x="609.4999999999999" y="931.0" />
+      <point x="-49.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.PropertiesConfiguration" target="org.apache.dubbo.common.config.Configuration">
+      <point x="0.0" y="-14.5" />
+      <point x="3291.770833333333" y="738.0" />
+      <point x="2669.75" y="738.0" />
+      <point x="57.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToDequeConverter" target="org.apache.dubbo.common.convert.multiple.StringToIterableConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="6443.229531463748" y="506.0" />
+      <point x="6111.944094847239" y="506.0" />
+      <point x="72.44999999999993" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringToBooleanConverter" target="org.apache.dubbo.common.convert.StringConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="5477.21909484724" y="357.0" />
+      <point x="4609.55" y="357.0" />
+      <point x="65.69999999999996" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToSortedSetConverter" target="org.apache.dubbo.common.convert.multiple.StringToIterableConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="4879.2440948472395" y="476.0" />
+      <point x="5987.7440948472395" y="476.0" />
+      <point x="-51.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.extension.factory.SpiExtensionFactory" target="org.apache.dubbo.common.extension.ExtensionFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="1514.625" y="268.0" />
+      <point x="1473.75" y="268.0" />
+      <point x="38.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringToStringConverter" target="org.apache.dubbo.common.convert.StringConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="5017.71909484724" y="377.0" />
+      <point x="4580.35" y="377.0" />
+      <point x="36.49999999999997" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.extension.DubboLoadingStrategy" target="org.apache.dubbo.common.extension.LoadingStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="6651.9940948472395" y="238.0" />
+      <point x="6224.729531463748" y="238.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.AbstractEventDispatcher" target="org.apache.dubbo.event.EventDispatcher">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.EventListener" target="org.apache.dubbo.common.extension.SPI">
+      <point x="-44.0" y="-14.5" />
+      <point x="6641.229531463748" y="59.0" />
+      <point x="2910.7839432284536" y="59.0" />
+      <point x="31.529411764705856" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.ServiceConfigBase" target="org.apache.dubbo.config.AbstractServiceConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="563.3749999999999" y="1010.0" />
+      <point x="524.1249999999999" y="1010.0" />
+      <point x="46.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.threadpool.manager.DefaultExecutorRepository" target="org.apache.dubbo.common.threadpool.manager.ExecutorRepository">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.AbstractReferenceConfig" target="org.apache.dubbo.config.AbstractInterfaceConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="833.8749999999999" y="931.0" />
+      <point x="707.4999999999999" y="931.0" />
+      <point x="49.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.compiler.Compiler" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="589.0" y="69.0" />
+      <point x="2851.66629616963" y="69.0" />
+      <point x="-27.58823529411765" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.ModuleConfig" target="org.apache.dubbo.config.AbstractConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="1455.9999999999998" y="748.0" />
+      <point x="903.9499999999999" y="748.0" />
+      <point x="49.70000000000002" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToQueueConverter" target="org.apache.dubbo.common.convert.multiple.StringToIterableConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="6664.729531463748" y="496.0" />
+      <point x="6132.644094847239" y="496.0" />
+      <point x="93.14999999999992" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.threadpool.support.cached.CachedThreadPool" target="org.apache.dubbo.common.threadpool.ThreadPool">
+      <point x="0.0" y="-14.5" />
+      <point x="2574.6250000000005" y="268.0" />
+      <point x="2628.7190948472394" y="268.0" />
+      <point x="14.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringToDoubleConverter" target="org.apache.dubbo.common.convert.StringConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="3901.7190948472394" y="367.0" />
+      <point x="4507.35" y="367.0" />
+      <point x="-36.50000000000001" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.compiler.support.JdkCompiler" target="org.apache.dubbo.common.compiler.support.AbstractCompiler">
+      <point x="0.0" y="-14.5" />
+      <point x="482.75" y="387.0" />
+      <point x="524.75" y="387.0" />
+      <point x="-38.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.extension.factory.AdaptiveExtensionFactory" target="org.apache.dubbo.common.extension.ExtensionFactory">
+      <point x="52.25" y="-14.5" />
+      <point x="1355.375" y="268.0" />
+      <point x="1396.25" y="268.0" />
+      <point x="-38.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.threadpool.ThreadPool" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="2613.9690948472394" y="139.0" />
+      <point x="2879.2545314637478" y="139.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.context.FrameworkExt" target="org.apache.dubbo.common.context.Lifecycle">
+      <point x="-33.75" y="-14.5" />
+      <point x="218.75" y="139.0" />
+      <point x="175.375" y="139.0" />
+      <point x="25.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.ApplicationConfig" target="org.apache.dubbo.config.AbstractConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="206.0" y="748.0" />
+      <point x="804.5499999999998" y="748.0" />
+      <point x="-49.699999999999996" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.CompositeConfiguration" target="org.apache.dubbo.common.config.Configuration">
+      <point x="0.0" y="-14.5" />
+      <point x="2189.2708333333335" y="748.0" />
+      <point x="2574.75" y="748.0" />
+      <point x="-38.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.Environment" target="org.apache.dubbo.common.context.LifecycleAdapter">
+      <point x="-31.5" y="-14.5" />
+      <point x="31.5" y="268.0" />
+      <point x="35.75" y="268.0" />
+      <point x="-50.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.ParallelEventDispatcher" target="org.apache.dubbo.event.AbstractEventDispatcher">
+      <point x="0.0" y="-14.5" />
+      <point x="3115.3987460100275" y="590.0" />
+      <point x="3061.6487460100275" y="590.0" />
+      <point x="50.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.configcenter.AbstractDynamicConfiguration" target="org.apache.dubbo.common.config.configcenter.DynamicConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="1847.0" y="832.0" />
+      <point x="1931.0208333333333" y="832.0" />
+      <point x="-46.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.GenericEvent" target="org.apache.dubbo.event.Event">
+      <point x="0.0" y="-14.5" />
+      <point x="6853.479531463748" y="139.0" />
+      <point x="6880.854531463748" y="139.0" />
+      <point x="-10.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.rpc.model.ServiceRepository" target="org.apache.dubbo.common.context.LifecycleAdapter">
+      <point x="-39.5" y="-14.5" />
+      <point x="347.5" y="248.0" />
+      <point x="135.75" y="248.0" />
+      <point x="50.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringToOptionalConverter" target="org.apache.dubbo.common.convert.StringConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="5244.21909484724" y="367.0" />
+      <point x="4594.950000000001" y="367.0" />
+      <point x="51.099999999999966" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.infra.support.CmdbAdapter" target="org.apache.dubbo.common.infra.InfraAdapter">
+      <point x="0.0" y="-14.5" />
+      <point x="4804.125" y="258.0" />
+      <point x="4695.879531463748" y="258.0" />
+      <point x="-31.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.compiler.support.AbstractCompiler" target="org.apache.dubbo.common.compiler.Compiler">
+      <point x="0.0" y="-14.5" />
+      <point x="-25.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.threadlocal.NamedInternalThreadFactory" target="org.apache.dubbo.common.utils.NamedThreadFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.AbstractMethodConfig" target="org.apache.dubbo.config.AbstractConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="751.4999999999999" y="778.0" />
+      <point x="847.1499999999999" y="778.0" />
+      <point x="-7.099999999999987" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToMultiValueConverter" target="org.apache.dubbo.common.convert.multiple.MultiValueConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="6203.9940948472395" y="258.0" />
+      <point x="5776.729531463748" y="258.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringToFloatConverter" target="org.apache.dubbo.common.convert.StringConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="4120.21909484724" y="377.0" />
+      <point x="4521.950000000001" y="377.0" />
+      <point x="-21.900000000000006" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.Converter" target="org.apache.dubbo.common.extension.SPI">
+      <point x="-27.25" y="-14.5" />
+      <point x="4374.479531463748" y="109.0" />
+      <point x="2891.078060875512" y="109.0" />
+      <point x="11.823529411764696" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.threadpool.support.eager.EagerThreadPool" target="org.apache.dubbo.common.threadpool.ThreadPool">
+      <point x="0.0" y="-14.5" />
+      <point x="2396.125" y="258.0" />
+      <point x="2599.2190948472394" y="258.0" />
+      <point x="-14.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringToLongConverter" target="org.apache.dubbo.common.convert.StringConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="4332.71909484724" y="387.0" />
+      <point x="4536.55" y="387.0" />
+      <point x="-7.300000000000011" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.DirectEventDispatcher" target="org.apache.dubbo.event.AbstractEventDispatcher">
+      <point x="0.0" y="-14.5" />
+      <point x="2906.8987460100275" y="590.0" />
+      <point x="2960.6487460100275" y="590.0" />
+      <point x="-50.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.ConfigCenterConfig" target="org.apache.dubbo.config.AbstractConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="551.4999999999999" y="768.0" />
+      <point x="832.9499999999999" y="768.0" />
+      <point x="-21.29999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.ProviderConfig" target="org.apache.dubbo.config.AbstractServiceConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="391.8749999999999" y="1010.0" />
+      <point x="431.1249999999999" y="1010.0" />
+      <point x="-46.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.Listenable" target="org.apache.dubbo.event.EventListener">
+      <point x="0.0" y="-14.5" />
+      <point x="3697.5045314637478" y="268.0" />
+      <point x="6641.229531463748" y="268.0" />
+      <point x="-44.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringToCharacterConverter" target="org.apache.dubbo.common.convert.StringConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="3668.2190948472394" y="357.0" />
+      <point x="4492.75" y="357.0" />
+      <point x="-51.10000000000001" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.context.ConfigManager" target="org.apache.dubbo.common.context.FrameworkExt">
+      <point x="35.5" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.MetadataReportConfig" target="org.apache.dubbo.config.AbstractConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="959.4999999999999" y="778.0" />
+      <point x="861.3499999999999" y="778.0" />
+      <point x="7.1000000000000085" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.infra.InfraAdapter" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="4727.129531463748" y="99.0" />
+      <point x="2895.0192373461005" y="99.0" />
+      <point x="15.764705882352928" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.store.DataStore" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="2921.1250000000005" y="129.0" />
+      <point x="2883.195707934336" y="129.0" />
+      <point x="3.941176470588232" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringToCharArrayConverter" target="org.apache.dubbo.common.convert.StringConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="4786.21909484724" y="387.0" />
+      <point x="4565.75" y="387.0" />
+      <point x="21.899999999999977" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.threadpool.support.fixed.FixedThreadPool" target="org.apache.dubbo.common.threadpool.ThreadPool">
+      <point x="0.0" y="-14.5" />
+      <point x="2751.6250000000005" y="268.0" />
+      <point x="2658.2190948472394" y="268.0" />
+      <point x="44.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.context.ConfigConfigurationAdapter" target="org.apache.dubbo.common.config.Configuration">
+      <point x="0.0" y="-14.5" />
+      <point x="2831.2708333333335" y="758.0" />
+      <point x="2631.75" y="758.0" />
+      <point x="19.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.configcenter.wrapper.CompositeDynamicConfiguration" target="org.apache.dubbo.common.config.configcenter.DynamicConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="2111.5" y="832.0" />
+      <point x="2023.5208333333333" y="832.0" />
+      <point x="46.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.store.support.SimpleDataStore" target="org.apache.dubbo.common.store.DataStore">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.MultiValueConverter" target="org.apache.dubbo.common.lang.Prioritized">
+      <point x="43.25" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToIterableConverter" target="org.apache.dubbo.common.convert.multiple.StringToMultiValueConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="6039.4940948472395" y="387.0" />
+      <point x="6147.4940948472395" y="387.0" />
+      <point x="-56.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.extension.ExtensionFactory" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="1435.0" y="99.0" />
+      <point x="2863.489825581395" y="99.0" />
+      <point x="-15.764705882352942" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.rpc.service.GenericServiceDetector" target="org.apache.dubbo.rpc.model.BuiltinServiceDetector">
+      <point x="0.0" y="-14.5" />
+      <point x="1717.625" y="268.0" />
+      <point x="1773.625" y="268.0" />
+      <point x="-46.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.EventListener" target="org.apache.dubbo.common.lang.Prioritized">
+      <point x="0.0" y="-14.5" />
+      <point x="6685.229531463748" y="49.0" />
+      <point x="5863.979531463748" y="49.0" />
+      <point x="44.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.EnvironmentConfiguration" target="org.apache.dubbo.common.config.Configuration">
+      <point x="0.0" y="-14.5" />
+      <point x="3068.270833333333" y="748.0" />
+      <point x="2650.75" y="748.0" />
+      <point x="38.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToSetConverter" target="org.apache.dubbo.common.convert.multiple.StringToIterableConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="6231.729531463748" y="516.0" />
+      <point x="6091.2440948472395" y="516.0" />
+      <point x="51.74999999999994" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.status.support.MemoryStatusChecker" target="org.apache.dubbo.common.extension.Activate">
+      <point x="-46.75" y="-14.5" />
+      <point x="5320.375" y="238.0" />
+      <point x="5018.171198130414" y="238.0" />
+      <point x="32.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.infra.support.EnvironmentAdapter" target="org.apache.dubbo.common.infra.InfraAdapter">
+      <point x="-43.75" y="-14.5" />
+      <point x="4934.375" y="248.0" />
+      <point x="4758.379531463748" y="248.0" />
+      <point x="31.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.configcenter.DynamicConfigurationFactory" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="990.0" y="79.0" />
+      <point x="2855.6074726402185" y="79.0" />
+      <point x="-23.647058823529413" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringToShortConverter" target="org.apache.dubbo.common.convert.StringConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="3439.2190948472394" y="347.0" />
+      <point x="4478.150000000001" y="347.0" />
+      <point x="-65.7" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.Environment" target="org.apache.dubbo.common.context.FrameworkExt">
+      <point x="31.5" y="-14.5" />
+      <point x="94.5" y="268.0" />
+      <point x="207.5" y="268.0" />
+      <point x="-45.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.utils.DefaultPage" target="org.apache.dubbo.common.utils.Page">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.extension.factory.AdaptiveExtensionFactory" target="org.apache.dubbo.common.extension.Adaptive">
+      <point x="-52.25" y="-14.5" />
+      <point x="1250.875" y="268.0" />
+      <point x="829.0" y="268.0" />
+      <point x="25.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.EventDispatcher" target="org.apache.dubbo.common.extension.SPI">
+      <point x="-37.25" y="-14.5" />
+      <point x="2973.8987460100275" y="387.0" />
+      <point x="2127.125" y="387.0" />
+      <point x="2127.125" y="129.0" />
+      <point x="2875.3133549931595" y="129.0" />
+      <point x="-3.941176470588289" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.Converter" target="org.apache.dubbo.common.lang.Prioritized">
+      <point x="27.25" y="-14.5" />
+      <point x="4428.979531463748" y="129.0" />
+      <point x="5775.979531463748" y="129.0" />
+      <point x="-44.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.rpc.model.ServiceRepository" target="org.apache.dubbo.common.context.FrameworkExt">
+      <point x="39.5" y="-14.5" />
+      <point x="426.5" y="238.0" />
+      <point x="297.5" y="238.0" />
+      <point x="45.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.ConsumerConfig" target="org.apache.dubbo.config.AbstractReferenceConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="740.8749999999999" y="1010.0" />
+      <point x="783.1249999999999" y="1010.0" />
+      <point x="-50.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.GenericEventListener" target="org.apache.dubbo.event.EventListener">
+      <point x="0.0" y="-14.5" />
+      <point x="7112.4940948472395" y="218.0" />
+      <point x="6685.229531463748" y="218.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.MethodConfig" target="org.apache.dubbo.config.AbstractMethodConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="844.4999999999999" y="852.0" />
+      <point x="798.7499999999999" y="852.0" />
+      <point x="47.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.rpc.model.ApplicationInitListener" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="2024.1250000000002" y="119.0" />
+      <point x="2871.372178522571" y="119.0" />
+      <point x="-7.882352941176471" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.compiler.support.AdaptiveCompiler" target="org.apache.dubbo.common.compiler.Compiler">
+      <point x="-39.0" y="-14.5" />
+      <point x="700.0" y="268.0" />
+      <point x="614.5" y="268.0" />
+      <point x="25.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.context.ConfigManager" target="org.apache.dubbo.common.context.LifecycleAdapter">
+      <point x="-35.5" y="-14.5" />
+      <point x="181.5" y="258.0" />
+      <point x="85.75" y="258.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.context.FrameworkExt" target="org.apache.dubbo.common.extension.SPI">
+      <point x="33.75" y="-14.5" />
+      <point x="286.25" y="59.0" />
+      <point x="2847.725119699042" y="59.0" />
+      <point x="-31.529411764705884" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToTransferQueueConverter" target="org.apache.dubbo.common.convert.multiple.StringToIterableConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="4620.7440948472395" y="466.0" />
+      <point x="5967.04409484724" y="466.0" />
+      <point x="-72.44999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.ProtocolConfig" target="org.apache.dubbo.config.AbstractConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="375.49999999999994" y="758.0" />
+      <point x="818.7499999999999" y="758.0" />
+      <point x="-35.49999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringConverter" target="org.apache.dubbo.common.convert.Converter">
+      <point x="0.0" y="-14.5" />
+      <point x="4543.85" y="258.0" />
+      <point x="4401.729531463748" y="258.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.extension.ServicesLoadingStrategy" target="org.apache.dubbo.common.extension.LoadingStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="6436.9940948472395" y="248.0" />
+      <point x="6175.062864797081" y="248.0" />
+      <point x="-49.666666666666664" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.OrderedPropertiesProvider" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="1231.5" y="89.0" />
+      <point x="2859.5486491108068" y="89.0" />
+      <point x="-19.705882352941178" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.rpc.model.BuiltinServiceDetector" target="org.apache.dubbo.common.extension.SPI">
+      <point x="0.0" y="-14.5" />
+      <point x="1819.625" y="109.0" />
+      <point x="2867.431002051983" y="109.0" />
+      <point x="-11.823529411764707" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToNavigableSetConverter" target="org.apache.dubbo.common.convert.multiple.StringToIterableConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="4352.7440948472395" y="456.0" />
+      <point x="5946.34409484724" y="456.0" />
+      <point x="-93.14999999999999" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.InmemoryConfiguration" target="org.apache.dubbo.common.config.Configuration">
+      <point x="0.0" y="-14.5" />
+      <point x="2405.2708333333335" y="758.0" />
+      <point x="2593.75" y="758.0" />
+      <point x="-19.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.configcenter.TreePathDynamicConfiguration" target="org.apache.dubbo.common.config.configcenter.AbstractDynamicConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.extension.LoadingStrategy" target="org.apache.dubbo.common.lang.Prioritized">
+      <point x="0.0" y="-14.5" />
+      <point x="6224.729531463748" y="139.0" />
+      <point x="5841.979531463748" y="139.0" />
+      <point x="22.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.RegistryConfig" target="org.apache.dubbo.config.AbstractConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="1142.4999999999998" y="768.0" />
+      <point x="875.55" y="768.0" />
+      <point x="21.30000000000001" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.AbstractInterfaceConfig" target="org.apache.dubbo.config.AbstractMethodConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="658.4999999999999" y="852.0" />
+      <point x="704.2499999999999" y="852.0" />
+      <point x="-47.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.configcenter.file.FileSystemDynamicConfiguration" target="org.apache.dubbo.common.config.configcenter.TreePathDynamicConfiguration">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToListConverter" target="org.apache.dubbo.common.convert.multiple.StringToIterableConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="5785.729531463748" y="506.0" />
+      <point x="6049.84409484724" y="506.0" />
+      <point x="10.349999999999966" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.lang.ShutdownHookCallback" target="org.apache.dubbo.common.lang.Prioritized">
+      <point x="48.75" y="-14.5" />
+      <point x="5472.504531463748" y="139.0" />
+      <point x="5797.979531463748" y="139.0" />
+      <point x="-22.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToBlockingDequeConverter" target="org.apache.dubbo.common.convert.multiple.StringToIterableConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="5546.729531463748" y="496.0" />
+      <point x="6029.144094847239" y="496.0" />
+      <point x="-10.350000000000023" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.config.configcenter.file.FileSystemDynamicConfigurationFactory" target="org.apache.dubbo.common.config.configcenter.AbstractDynamicConfigurationFactory">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.status.support.MemoryStatusChecker" target="org.apache.dubbo.common.status.StatusChecker">
+      <point x="46.75" y="-14.5" />
+      <point x="5413.875" y="228.0" />
+      <point x="5271.754531463748" y="228.0" />
+      <point x="34.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToCollectionConverter" target="org.apache.dubbo.common.convert.multiple.StringToIterableConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="6009.229531463748" y="516.0" />
+      <point x="6070.54409484724" y="516.0" />
+      <point x="31.049999999999955" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.extension.DubboInternalLoadingStrategy" target="org.apache.dubbo.common.extension.LoadingStrategy">
+      <point x="0.0" y="-14.5" />
+      <point x="6884.9940948472395" y="228.0" />
+      <point x="6274.396198130415" y="228.0" />
+      <point x="49.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.StringToIntegerConverter" target="org.apache.dubbo.common.convert.StringConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="7.299999999999983" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.context.LifecycleAdapter" target="org.apache.dubbo.common.context.Lifecycle">
+      <point x="0.0" y="-14.5" />
+      <point x="85.75" y="139.0" />
+      <point x="124.875" y="139.0" />
+      <point x="-25.25" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.ConditionalEventListener" target="org.apache.dubbo.event.Event">
+      <point x="50.5" y="-14.5" />
+      <point x="7373.4940948472395" y="139.0" />
+      <point x="6901.604531463748" y="139.0" />
+      <point x="10.375" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.EventDispatcher" target="org.apache.dubbo.event.Listenable">
+      <point x="37.25" y="-14.5" />
+      <point x="3048.3987460100275" y="337.0" />
+      <point x="3697.5045314637478" y="337.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.compiler.support.JavassistCompiler" target="org.apache.dubbo.common.compiler.support.AbstractCompiler">
+      <point x="0.0" y="-14.5" />
+      <point x="644.25" y="387.0" />
+      <point x="602.25" y="387.0" />
+      <point x="38.75" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.infra.support.EnvironmentAdapter" target="org.apache.dubbo.common.extension.Activate">
+      <point x="43.75" y="-14.5" />
+      <point x="5021.875" y="258.0" />
+      <point x="4952.837864797081" y="258.0" />
+      <point x="-32.666666666666664" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.status.support.LoadStatusChecker" target="org.apache.dubbo.common.extension.Activate">
+      <point x="-42.0" y="-14.5" />
+      <point x="5127.625" y="248.0" />
+      <point x="4985.504531463748" y="248.0" />
+      <point x="-7.105427357601002E-15" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.compiler.support.AdaptiveCompiler" target="org.apache.dubbo.common.extension.Adaptive">
+      <point x="39.0" y="-14.5" />
+      <point x="-25.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.lang.ShutdownHookCallback" target="org.apache.dubbo.common.extension.SPI">
+      <point x="-48.75" y="-14.5" />
+      <point x="5375.004531463748" y="79.0" />
+      <point x="2902.901590287277" y="79.0" />
+      <point x="23.64705882352939" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.status.support.LoadStatusChecker" target="org.apache.dubbo.common.status.StatusChecker">
+      <point x="42.0" y="-14.5" />
+      <point x="5211.625" y="258.0" />
+      <point x="5202.754531463748" y="258.0" />
+      <point x="-34.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.common.convert.multiple.StringToArrayConverter" target="org.apache.dubbo.common.convert.multiple.StringToMultiValueConverter">
+      <point x="0.0" y="-14.5" />
+      <point x="56.5" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.event.ConditionalEventListener" target="org.apache.dubbo.event.EventListener">
+      <point x="-50.5" y="-14.5" />
+      <point x="7272.4940948472395" y="208.0" />
+      <point x="6729.229531463748" y="208.0" />
+      <point x="44.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.rpc.model.ServiceMetadata" target="org.apache.dubbo.common.BaseServiceMetadata">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.apache.dubbo.config.SslConfig" target="org.apache.dubbo.config.AbstractConfig">
+      <point x="0.0" y="-14.5" />
+      <point x="53.5" y="738.0" />
+      <point x="790.3499999999999" y="738.0" />
+      <point x="-63.9" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="89.5" y="14.5" />
+  <SelectedNodes>
+    <node>org.apache.dubbo.common.BaseServiceMetadata</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
